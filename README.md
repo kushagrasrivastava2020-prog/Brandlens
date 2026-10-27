@@ -40,7 +40,7 @@ The tracked list decides what counts as a mention, and it isn't neutral:
 | 4. Models: majority / logistic / XGBoost, SHAP, charts | `train.py [--subset all\|original]` | `model.pkl` + `figures/`, or `model_original.pkl` + `figures/original/` |
 | 5. List coverage, Global − Indian gap (bootstrap CI) | `analysis.py` | console tables |
 | 6. Indian-origin share of all brands (bootstrap CI) | `origin_share.py` | `origin_share.csv`, `unlisted_origins.csv` |
-| 7. Demo app | `streamlit run app.py` | http://localhost:8501 |
+| 7. Demo app: "Profile score" and "Check my brand" tabs | `streamlit run app.py` | http://localhost:8501 |
 
 Setup:
 
@@ -49,7 +49,14 @@ python -m venv venv
 venv\Scripts\python -m pip install -r requirements.txt
 ```
 
-Put your key in `.env` as `ANTHROPIC_API_KEY=...`. The file is git-ignored.
+Put your key in `.env` as `ANTHROPIC_API_KEY=...`, or in `.streamlit/secrets.toml` for the app. Both are git-ignored.
+
+pandas is pinned to 2.3.3 because Windows Smart App Control blocked a pandas 3.1.0 DLL on the development machine. All outputs are identical under both versions.
+
+## The app
+
+- **Profile score** runs `model_original.pkl` on a profile (category, origin, size tier) and shows a relative visibility score per language, a query-type chart, and a SHAP breakdown. It never sees brand names.
+- **Check my brand** (`brand_check.py`) asks `claude-haiku-5-5` the study's 24 questions for one category right now: 8 query types × 3 languages, the same settings as `collect.py`. It then finds the brand in each answer, using regex with the given aliases plus any known ones from `brands.csv`, and records its position among all brands in the answer. Haiku's sentiment extraction is reused for the sentiment and the other brands. Each check makes 48 API calls, about $0.02. A session is limited to 3 checks, and the key is never shown or logged. The results are indicative: one model, no web search, 8 queries per language. Tested on boAt (wireless earbuds): all 24 answers were read by hand, and all 19 mentions and 5 non-mentions were correct.
 
 The API scripts (`collect.py`, `sentiment.py`, `origin_share.py`) skip work that is already saved, run 4 threads where that helps, retry rate limits and server errors 3 times, and log failures to `errors.log` / `sentiment_errors.log`. Everything after step 2 runs offline.
 

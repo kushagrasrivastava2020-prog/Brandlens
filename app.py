@@ -1,11 +1,15 @@
 import os
 
 import altair as alt
+import anthropic
 import joblib
 import numpy as np
 import pandas as pd
 import shap
 import streamlit as st
+from dotenv import load_dotenv
+
+import brand_check
 
 MODEL_FILE = "model_original.pkl"
 BRANDS_FILE = "brands.csv"
@@ -23,6 +27,9 @@ DISCLAIMER = ("Pilot study. One model (Claude Haiku), 360 queries, no live web s
               "Predictions come from the brand's profile (category, origin, size) only, not from its name. "
               "Scores are measured within the tracked brand list. English answers mention more brands that are "
               "outside the list, so don't compare scores directly across languages.")
+MAX_CHECKS = 3  # har browser session mein "Check my brand" ki limit
+CHECK_DISCLAIMER = ("Results come from one model (Claude Haiku), without live web search. "
+                    "They are based on 8 queries per language, so treat them as indicative.")
 
 
 @st.cache_resource
@@ -90,16 +97,21 @@ def shap_chart(contributions):
     return (bars + zero).properties(height=220)
 
 
-def main():
-    st.set_page_config(page_title="BrandLens-India", page_icon="🔎", layout="wide")
-    st.title("BrandLens-India")
-    st.caption("Relative visibility of a brand profile in AI answers (English / Hindi / Hinglish)")
-    st.markdown("This app scores a **profile** (category, origin, size tier), not a brand name. "
-                "Two brands with the same profile always get the same score.")
+def get_api_key():
+    # .env ya .streamlit/secrets.toml se; key kabhi screen par ya log mein nahi jaani chahiye
+    load_dotenv()
+    key = os.getenv("ANTHROPIC_API_KEY")
+    if not key:
+        try:
+            key = st.secrets["ANTHROPIC_API_KEY"]
+        except Exception:
+            key = None
+    return key or None
 
-    model = load_model()
-    brands = load_brands()
-    levels = model_levels(model)
+
+def profile_tab(model, brands, levels):
+    st.markdown("This tab scores a **profile** (category, origin, size tier), not a brand name. "
+                "Two brands with the same profile always get the same score.")
 
     def clear_brand():
         st.session_state["brand"] = NO_BRAND
@@ -156,6 +168,108 @@ def main():
         st.warning(f"{REFERENCE_CHART} not found. Run `python train.py --subset original` first.")
 
     st.info(DISCLAIMER)
+
+
+def render_check(result):
+    results, info = result["results"], result["info"]
+    st.markdown(f"#### {info['brand']} · {info['category']}")
+    st.caption("Matched as: " + ", ".join(info["names"]))
+    if info["failed"]:
+        reasons = ", ".join(f"{name} ×{n}" for name, n in info["errors"].items())
+        st.warning(f"{info['failed']} of 24 questions failed after retries and are left out ({reasons}).")
+
+    summary = brand_check.language_summary(results)
+    for col, r in zip(st.columns(3), summary.to_dict("records")):
+        col.metric(f"{r['Language']}: answers mentioning it", r["Mentioned in"])
+    st.dataframe(summary, hide_index=True, width="stretch")
+    st.caption("Avg position = order of first appearance among all brands in the answer (1 = named first). "
+               "Sentiment is Claude Haiku's reading of how the answer talks about the brand.")
+
+    st.markdown("**Top 10 other brands in these answers**")
+    st.dataframe(brand_check.top_competitors(results), hide_index=True, width="stretch")
+
+    st.download_button("Download the answers (CSV)", brand_check.to_csv(results),
+                       file_name=f"brand_check_{info['brand']}_{info['category']}.csv".replace(" ", "_"),
+                       mime="text/csv")
+    with st.expander(f"Read all {len(results)} answers"):
+        for r in results.itertuples():
+            status = (f"mentioned, position {int(r.position)}, {r.sentiment or 'sentiment not rated'}"
+                      if r.mentioned else "not mentioned")
+            with st.container(border=True):
+                st.markdown(f"**{r.language} · {r.query_type}** ({status})")
+                st.caption(r.query_text)
+                st.markdown(r.answer)
+
+
+def check_tab(levels):
+    st.subheader("Check my brand")
+    st.caption("Asks Claude Haiku the study's 24 questions for one category right now "
+               "(8 query types × English, Hindi, Hinglish), then looks for your brand in the answers.")
+    api_key = get_api_key()
+    st.session_state.setdefault("checks_used", 0)
+    st.session_state.setdefault("session_cost", 0.0)
+
+    with st.form("check_form"):
+        brand = st.text_input("Brand name", placeholder="e.g. boAt")
+        aliases = st.text_input("Other names (optional, comma-separated)", placeholder="e.g. Airdopes, बोट")
+        category = st.selectbox("Category", levels["category"], key="check_category")
+        run = st.form_submit_button("Run check", type="primary",
+                                    disabled=not api_key or st.session_state["checks_used"] >= MAX_CHECKS)
+    if not api_key:
+        st.warning("No API key found. Add ANTHROPIC_API_KEY to .env or .streamlit/secrets.toml.")
+
+    if run:
+        if st.session_state["checks_used"] >= MAX_CHECKS:  # button band hone ke baad bhi double-check
+            st.error(f"This session has used all {MAX_CHECKS} checks.")
+        elif not brand.strip():
+            st.error("Enter a brand name.")
+        else:
+            st.session_state["checks_used"] += 1
+            progress = st.progress(0.0, text="Asking Claude Haiku…")
+            try:
+                results, info = brand_check.run_check(
+                    brand.strip(), aliases.split(","), category, api_key,
+                    on_progress=lambda done, total: progress.progress(done / total, text=f"{done}/{total} questions done"))
+            except anthropic.AuthenticationError:
+                st.error("The API key was rejected. Check ANTHROPIC_API_KEY.")
+            except Exception as e:  # sirf error ka type dikhao, message mein kuch sensitive na jaaye
+                st.error(f"The check failed ({type(e).__name__}). Try again in a minute.")
+            else:
+                st.session_state["session_cost"] += info["cost"]
+                if results.empty:
+                    reasons = ", ".join(f"{name} ×{n}" for name, n in info["errors"].items())
+                    st.error(f"All 24 questions failed ({reasons}). Try again in a minute.")
+                else:
+                    st.session_state["check_result"] = {"results": results, "info": info}
+            progress.empty()
+
+    left = MAX_CHECKS - st.session_state["checks_used"]
+    st.caption(f"{left} of {MAX_CHECKS} checks left in this session. Each check makes 48 API calls "
+               f"(24 answers + 24 brand extractions), about \\${brand_check.EXPECTED_COST:.2f}. If the brand is in "
+               "brands.csv for this category, its known names are matched too.")
+    if "check_result" in st.session_state:
+        info = st.session_state["check_result"]["info"]
+        # "\$" zaroori hai: markdown do $ ke beech ke text ko LaTeX maan leta hai
+        st.success(f"Cost of the last check: about \\${info['cost']:.3f} ({info['input_tokens']:,} input + "
+                   f"{info['output_tokens']:,} output tokens at claude-haiku-5-5 prices). "
+                   f"This session so far: \\${st.session_state['session_cost']:.3f}.")
+        render_check(st.session_state["check_result"])
+
+    st.info(CHECK_DISCLAIMER)
+
+
+def main():
+    st.set_page_config(page_title="BrandLens-India", page_icon="🔎", layout="wide")
+    st.title("BrandLens-India")
+    st.caption("Relative visibility of brands in AI answers (English / Hindi / Hinglish)")
+
+    model = load_model()
+    levels = model_levels(model)
+    profile, check = st.tabs(["Profile score", "Check my brand"])
+    with profile:
+        profile_tab(model, load_brands(), levels)
+    with check:
+        check_tab(levels)
 
 
 if __name__ == "__main__":
