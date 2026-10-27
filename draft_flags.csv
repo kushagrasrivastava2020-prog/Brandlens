@@ -1,0 +1,54 @@
+brand_id,category,brand,flag,alias,reason,action
+b231,mattresses,Sleepyhead,2_sub_brand,Sleepyhead,Sleepyhead by Duroflex - Duroflex (b104) ka D2C sub-brand,naya brand nahi; b104 Duroflex mein alias 'Sleepyhead|स्लीपीहेड' jodo
+b197,shampoo,Garnier Fructis,2_product_line,Garnier Fructis,"Fructis Garnier ki product line hai, brand Garnier hai","brand naam 'Garnier' kiya, 'Garnier Fructis' aur 'Fructis' alias"
+b204,shampoo,Kérastase,2_parent_company_info,Kérastase,sirf parent company same hai: L'Oréal group; b063 L'Oréal isi category mein,alag brand rakho (existing data mein Dove/Sunsilk bhi alag hain)
+b208,shampoo,Redken,2_parent_company_info,Redken,sirf parent company same hai: L'Oréal group; b063 L'Oréal isi category mein,alag brand rakho (existing data mein Dove/Sunsilk bhi alag hain)
+b197,shampoo,Garnier,2_parent_company_info,Garnier,sirf parent company same hai: L'Oréal group; b063 L'Oréal isi category mein,alag brand rakho (existing data mein Dove/Sunsilk bhi alag hain)
+b196,shampoo,Clinic Plus,2_parent_company_info,Clinic Plus,sirf parent company same hai: HUL; b060 Dove aur b064 Sunsilk bhi HUL ke hain,alag brand rakho (existing data mein Dove/Sunsilk bhi alag hain)
+b224,refrigerators,Siemens,2_parent_company_info,Siemens,sirf parent company same hai: BSH; b097 Bosch bhi BSH ka hai,alag brand rakho (existing data mein Dove/Sunsilk bhi alag hain)
+b268,sunscreen,CeraVe,2_parent_company_info,CeraVe,sirf parent company same hai: L'Oréal group; b148 La Roche-Posay bhi L'Oréal ka hai,alag brand rakho (existing data mein Dove/Sunsilk bhi alag hain)
+b178,smartwatches,Fitbit,2_parent_company_info,Fitbit,sirf parent company same hai: Google ka; draft mein Google Pixel Watch bhi hai,alag brand rakho (existing data mein Dove/Sunsilk bhi alag hain)
+b165,wireless earbuds,Realme,3_other_category_info,Realme,same brand doosri category mein hai (b004/c01),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b167,wireless earbuds,Nothing,3_other_category_info,Nothing,same brand doosri category mein hai (b007/c01),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b169,wireless earbuds,Xiaomi,3_other_category_info,Xiaomi,same brand doosri category mein hai (b003/c01),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b176,laptops,Zebronics,3_other_category_info,Zebronics,same brand doosri category mein hai (b019/c02),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b179,smartwatches,Xiaomi,3_other_category_info,Xiaomi,same brand doosri category mein hai (b003/c01),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b187,face moisturizer,La Roche-Posay,3_other_category_info,La Roche-Posay,same brand doosri category mein hai (b148/c15),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b193,face moisturizer,Lakmé,3_other_category_info,Lakmé,same brand doosri category mein hai (b154/c15),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b198,shampoo,Neutrogena,3_other_category_info,Neutrogena,"same brand doosri category mein hai (b049/c06, b147/c15)",theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b201,shampoo,Minimalist,3_other_category_info,Minimalist,"same brand doosri category mein hai (b052/c06, b150/c15)",theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b214,air conditioners,Haier,3_other_category_info,Haier,same brand doosri category mein hai (b096/c10),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b221,refrigerators,Lloyd,3_other_category_info,Lloyd,same brand doosri category mein hai (b089/c09),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b222,refrigerators,Hitachi,3_other_category_info,Hitachi,same brand doosri category mein hai (b086/c09),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b266,sunscreen,Biotique,3_other_category_info,Biotique,same brand doosri category mein hai (b070/c07),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b267,sunscreen,Plum,3_other_category_info,Plum,same brand doosri category mein hai (b054/c06),theek hai - har category ka alag brand_id (Samsung bhi 4 categories mein hai); origin/size_tier wahi rakha
+b230,mattresses,Godrej Interio,3_other_category_info,Godrej|गोदरेज,"alias 'Godrej' c09/c10 ke Godrej (b090, b095) jaisa hai",theek hai - c11 mein aur koi Godrej nahi
+b161,smartphones,Vivo,3_merged_in_draft,Vivo + iQOO,unlisted list mein do naam ek hi brand ke the,ek row mein merge kiya
+b163,smartphones,Google Pixel,3_merged_in_draft,Google + Google Pixel,unlisted list mein do naam ek hi brand ke the,ek row mein merge kiya
+b248,motorcycles,BMW Motorrad,3_merged_in_draft,BMW + BMW Motorrad,unlisted list mein do naam ek hi brand ke the,ek row mein merge kiya
+b163,smartphones,Google Pixel,4_ambiguous,Google,"Hinglish 'google kar lo', aur Google Play/Pay/Assistant",case-sensitive list (AMBIGUOUS) mein joda; 'Google Play/Pay/Assistant/Maps...' NOT_FOLLOWED_BY se exclude
+b172,wireless earbuds,Google Pixel Buds,4_ambiguous,Google,"Hinglish 'google kar lo', aur Google Play/Pay/Assistant",case-sensitive list (AMBIGUOUS) mein joda; 'Google Play/Pay/Assistant/Maps...' NOT_FOLLOWED_BY se exclude
+b163,smartphones,Google Pixel,4_ambiguous,Pixel,"'pixel density', 'pixels'",case-sensitive list (AMBIGUOUS) mein joda
+b175,laptops,Microsoft Surface,4_ambiguous,Surface,'surface' aam English word,case-sensitive list (AMBIGUOUS) mein joda
+b177,laptops,Framework,4_ambiguous,Framework,'framework' aam English word,case-sensitive list (AMBIGUOUS) mein joda
+b185,running shoes,Bata,4_ambiguous,Bata,"Hinglish 'bata do', 'batayein'",case-sensitive list (AMBIGUOUS) mein joda
+b182,running shoes,Brooks,4_ambiguous,Brooks,'brooks' (stream / verb),case-sensitive list (AMBIGUOUS) mein joda
+b209,shampoo,Suave,4_ambiguous,Suave,'suave' adjective,case-sensitive list (AMBIGUOUS) mein joda
+b237,mattresses,Purple,4_ambiguous,Purple,rang ka naam,case-sensitive list (AMBIGUOUS) mein joda
+b236,mattresses,Nectar,4_ambiguous,Nectar,'nectar' aam English word,case-sensitive list (AMBIGUOUS) mein joda
+b235,mattresses,Helix,4_ambiguous,Helix,'helix' aam English word,case-sensitive list (AMBIGUOUS) mein joda
+b252,motorcycles,Triumph,4_ambiguous,Triumph,'triumph' aam English word,case-sensitive list (AMBIGUOUS) mein joda
+b253,backpacks,VIP,4_ambiguous_info,VIP,generic acronym (VIP lounge) - case se fark nahi padta,"rakha; backpack/earbuds answers mein risk kam, baad mein spot-check karo"
+b166,wireless earbuds,Bose,4_ambiguous_info,Bose,Indian surname - case se fark nahi padta,"rakha; backpack/earbuds answers mein risk kam, baad mein spot-check karo"
+b264,backpacks,Patagonia,4_ambiguous_info,Patagonia,jagah ka naam (trekking destination) - case se fark nahi padta,"rakha; backpack/earbuds answers mein risk kam, baad mein spot-check karo"
+b163,smartphones,Google Pixel,4_ambiguous_devanagari,पिक्सल,substring 'मेगापिक्सल' ke andar mil jaata,"Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b163,smartphones,Google Pixel,4_ambiguous_devanagari,गूगल,"'गूगल पर सर्च', 'गूगल प्ले'","Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b172,wireless earbuds,Google Pixel Buds,4_ambiguous_devanagari,गूगल,"'गूगल पर सर्च', 'गूगल प्ले'","Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b164,smartphones,Karbonn,4_ambiguous_devanagari,कार्बन,'carbon' ka Hindi,"Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b194,face moisturizer,Olay,4_ambiguous_devanagari,ओले,'ओले' = hail,"Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b214,air conditioners,Haier,4_ambiguous_devanagari,हायर,"'हायर' = higher/hire (existing b096 mein bhi hai; abhi 1 hit, sahi)","Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b177,laptops,Framework,4_ambiguous_devanagari,फ्रेमवर्क,'framework' ka Hindi,"Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b228,refrigerators,GE,4_ambiguous_devanagari,जीई,"sirf 2 akshar, doosre shabdon ke andar mil sakta hai","Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b185,running shoes,Bata,4_ambiguous_devanagari,बाटा,'बाटा' = baanta (divided),"Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b168,wireless earbuds,Jabra,4_ambiguous_devanagari,जबरा,slang shabd ('जबरा फैन'),"Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"
+b253,backpacks,VIP,4_ambiguous_devanagari,वीआईपी,'वीआईपी कल्चर' jaisa aam shabd,"Devanagari mein case nahi hota, isliye alias hataya (Latin naam aur phrase wale aliases rahe)"

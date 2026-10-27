@@ -1,0 +1,161 @@
+﻿brand_id,category_id,category,brand,aliases,origin,size_tier
+b001,c01,smartphones,Samsung,Samsung|सैमसंग,Global,big
+b002,c01,smartphones,Apple,Apple|iPhone|आईफोन|एप्पल,Global,big
+b003,c01,smartphones,Xiaomi,Xiaomi|Redmi|Mi|शाओमी|रेडमी,Global,big
+b004,c01,smartphones,Realme,Realme|रियलमी,Global,big
+b005,c01,smartphones,OnePlus,OnePlus|वनप्लस,Global,big
+b006,c01,smartphones,Motorola,Motorola|Moto|मोटोरोला,Global,mid
+b007,c01,smartphones,Nothing,Nothing|CMF|नथिंग,Global,mid
+b008,c01,smartphones,Lava,Lava|लावा,Indian,mid
+b009,c01,smartphones,Micromax,Micromax|माइक्रोमैक्स,Indian,niche
+b010,c02,wireless earbuds,boAt,boAt|बोट,Indian,big
+b011,c02,wireless earbuds,Noise,Noise|नॉइज़,Indian,big
+b012,c02,wireless earbuds,Sony,Sony|सोनी,Global,big
+b013,c02,wireless earbuds,JBL,JBL|जेबीएल,Global,big
+b014,c02,wireless earbuds,Apple AirPods,Apple AirPods|AirPods|एयरपॉड्स,Global,big
+b015,c02,wireless earbuds,Samsung Galaxy Buds,Samsung Galaxy Buds|Galaxy Buds,Global,big
+b016,c02,wireless earbuds,OnePlus Buds,OnePlus Buds|Nord Buds|वनप्लस,Global,mid
+b017,c02,wireless earbuds,Boult,Boult|Boult Audio|बोल्ट,Indian,mid
+b018,c02,wireless earbuds,Mivi,Mivi|मिवी,Indian,mid
+b019,c02,wireless earbuds,Zebronics,Zebronics|ज़ेबरोनिक्स,Indian,mid
+b020,c03,laptops,HP,HP|एचपी,Global,big
+b021,c03,laptops,Dell,Dell|डेल,Global,big
+b022,c03,laptops,Lenovo,Lenovo|लेनोवो,Global,big
+b023,c03,laptops,Asus,Asus|एसस,Global,big
+b024,c03,laptops,Acer,Acer|एसर,Global,big
+b025,c03,laptops,Apple MacBook,Apple MacBook|MacBook|मैकबुक,Global,big
+b026,c03,laptops,MSI,MSI|एमएसआई,Global,mid
+b027,c03,laptops,Primebook,Primebook|प्राइमबुक,Indian,niche
+b028,c03,laptops,iBall,iBall|आईबॉल,Indian,niche
+b029,c04,smartwatches,Noise,Noise|नॉइज़,Indian,big
+b030,c04,smartwatches,boAt,boAt|बोट,Indian,big
+b031,c04,smartwatches,Fire-Boltt,Fire-Boltt|Fire Boltt|फायर-बोल्ट,Indian,big
+b032,c04,smartwatches,Apple Watch,Apple Watch|एप्पल वॉच,Global,big
+b033,c04,smartwatches,Samsung Galaxy Watch,Samsung Galaxy Watch|Galaxy Watch,Global,big
+b034,c04,smartwatches,Amazfit,Amazfit|अमेज़फिट,Global,mid
+b035,c04,smartwatches,Fastrack,Fastrack|फास्टट्रैक,Indian,mid
+b036,c04,smartwatches,Titan,Titan|टाइटन,Indian,mid
+b037,c04,smartwatches,Garmin,Garmin|गार्मिन,Global,mid
+b038,c05,running shoes,Nike,Nike|नाइकी,Global,big
+b039,c05,running shoes,Adidas,Adidas|अदिदास|एडिडास,Global,big
+b040,c05,running shoes,Puma,Puma|पुमा,Global,big
+b041,c05,running shoes,Asics,Asics|असिक्स,Global,mid
+b042,c05,running shoes,Reebok,Reebok|रीबॉक,Global,big
+b043,c05,running shoes,Skechers,Skechers|स्केचर्स,Global,big
+b044,c05,running shoes,Campus,Campus|कैंपस,Indian,big
+b045,c05,running shoes,HRX,HRX|एचआरएक्स,Indian,mid
+b046,c05,running shoes,Red Tape,Red Tape|रेड टेप,Indian,mid
+b047,c05,running shoes,Decathlon,Decathlon|Kalenji|डेकाथलॉन,Global,mid
+b048,c06,face moisturizer,Cetaphil,Cetaphil|सेटाफिल,Global,big
+b049,c06,face moisturizer,Neutrogena,Neutrogena|न्यूट्रोजेना,Global,big
+b050,c06,face moisturizer,Nivea,Nivea|निविया,Global,big
+b051,c06,face moisturizer,Himalaya,Himalaya|हिमालया,Indian,big
+b052,c06,face moisturizer,Minimalist,Minimalist|मिनिमलिस्ट,Indian,mid
+b053,c06,face moisturizer,Dot & Key,Dot & Key|Dot and Key,Indian,mid
+b054,c06,face moisturizer,Plum,Plum|प्लम,Indian,mid
+b055,c06,face moisturizer,Mamaearth,Mamaearth|ममाअर्थ,Indian,big
+b056,c06,face moisturizer,Simple,Simple|सिंपल,Global,mid
+b057,c06,face moisturizer,The Derma Co,The Derma Co|Derma Co,Indian,mid
+b058,c06,face moisturizer,Pond's,Pond's|Ponds|पॉन्ड्स,Global,big
+b059,c07,shampoo,Head & Shoulders,Head & Shoulders|Head and Shoulders|हेड एंड शोल्डर्स,Global,big
+b060,c07,shampoo,Dove,Dove|डव,Global,big
+b061,c07,shampoo,Pantene,Pantene|पेंटीन,Global,big
+b062,c07,shampoo,TRESemmé,TRESemmé|Tresemme|ट्रेसेमे,Global,big
+b063,c07,shampoo,L'Oréal,L'Oréal|Loreal|L'Oreal|लोरियल,Global,big
+b064,c07,shampoo,Sunsilk,Sunsilk|सनसिल्क,Global,big
+b065,c07,shampoo,Himalaya,Himalaya|हिमालया,Indian,big
+b066,c07,shampoo,Mamaearth,Mamaearth|ममाअर्थ,Indian,big
+b067,c07,shampoo,Patanjali,Patanjali|पतंजलि,Indian,big
+b068,c07,shampoo,WOW Skin Science,WOW Skin Science|WOW|वाउ,Indian,mid
+b069,c07,shampoo,Indulekha,Indulekha|इंदुलेखा,Indian,mid
+b070,c07,shampoo,Biotique,Biotique|बायोटिक,Indian,mid
+b071,c08,protein powder,Optimum Nutrition,Optimum Nutrition|ON Gold Standard|ऑप्टिमम न्यूट्रिशन,Global,big
+b072,c08,protein powder,MuscleBlaze,MuscleBlaze|मसलब्लेज़,Indian,big
+b073,c08,protein powder,MyProtein,MyProtein|माईप्रोटीन,Global,big
+b074,c08,protein powder,Dymatize,Dymatize|डायमेटाइज़,Global,mid
+b075,c08,protein powder,GNC,GNC|जीएनसी,Global,big
+b076,c08,protein powder,AS-IT-IS,AS-IT-IS|AS-IT-IS Nutrition|ASitis,Indian,mid
+b077,c08,protein powder,Avvatar,Avvatar|अवतार,Indian,mid
+b078,c08,protein powder,HealthKart,HealthKart|हेल्थकार्ट,Indian,big
+b079,c08,protein powder,BigMuscles,BigMuscles|बिगमसल्स,Indian,mid
+b080,c08,protein powder,Wellbeing Nutrition,Wellbeing Nutrition|वेलबीइंग,Indian,niche
+b081,c09,air conditioners,Daikin,Daikin|डाइकिन,Global,big
+b082,c09,air conditioners,LG,LG|एलजी,Global,big
+b083,c09,air conditioners,Voltas,Voltas|वोल्टास,Indian,big
+b084,c09,air conditioners,Blue Star,Blue Star|Bluestar|ब्लू स्टार,Indian,big
+b085,c09,air conditioners,Carrier,Carrier|कैरियर,Global,big
+b086,c09,air conditioners,Hitachi,Hitachi|हिताची,Global,big
+b087,c09,air conditioners,Samsung,Samsung|सैमसंग,Global,big
+b088,c09,air conditioners,Panasonic,Panasonic|पैनासोनिक,Global,mid
+b089,c09,air conditioners,Lloyd,Lloyd|लॉयड,Indian,mid
+b090,c09,air conditioners,Godrej,Godrej|गोदरेज,Indian,big
+b091,c09,air conditioners,Whirlpool,Whirlpool|व्हर्लपूल,Global,mid
+b092,c10,refrigerators,LG,LG|एलजी,Global,big
+b093,c10,refrigerators,Samsung,Samsung|सैमसंग,Global,big
+b094,c10,refrigerators,Whirlpool,Whirlpool|व्हर्लपूल,Global,big
+b095,c10,refrigerators,Godrej,Godrej|गोदरेज,Indian,big
+b096,c10,refrigerators,Haier,Haier|हायर,Global,big
+b097,c10,refrigerators,Bosch,Bosch|बॉश,Global,mid
+b098,c10,refrigerators,Panasonic,Panasonic|पैनासोनिक,Global,mid
+b099,c10,refrigerators,Voltas Beko,Voltas Beko|Beko|वोल्टास बेको,Indian,mid
+b100,c10,refrigerators,Kelvinator,Kelvinator|केल्विनेटर,Global,mid
+b101,c11,mattresses,Wakefit,Wakefit|वेकफिट,Indian,big
+b102,c11,mattresses,Sleepwell,Sleepwell|स्लीपवेल,Indian,big
+b103,c11,mattresses,Kurl-on,Kurl-on|Kurlon|कर्लऑन,Indian,big
+b104,c11,mattresses,Duroflex,Duroflex|ड्यूरोफ्लेक्स,Indian,big
+b105,c11,mattresses,The Sleep Company,The Sleep Company|Sleep Company|SmartGRID,Indian,mid
+b106,c11,mattresses,SleepyCat,SleepyCat|स्लीपीकैट,Indian,mid
+b107,c11,mattresses,Springwel,Springwel|स्प्रिंगवेल,Indian,mid
+b108,c11,mattresses,Nilkamal,Nilkamal|नीलकमल,Indian,mid
+b109,c11,mattresses,Sealy,Sealy|सीली,Global,mid
+b110,c11,mattresses,IKEA,IKEA|आइकिया,Global,mid
+b111,c11,mattresses,Tempur,Tempur|टेम्पूर,Global,niche
+b112,c11,mattresses,Serta,Serta|सर्टा,Global,niche
+b113,c12,tea,Tata Tea,Tata Tea|Tata|टाटा,Indian,big
+b114,c12,tea,Brooke Bond,Brooke Bond|Red Label|Taj Mahal|ब्रुक बॉन्ड|रेड लेबल|ताज महल,Global,big
+b115,c12,tea,Wagh Bakri,Wagh Bakri|वाघ बकरी,Indian,mid
+b116,c12,tea,Society Tea,Society Tea|सोसाइटी,Indian,mid
+b117,c12,tea,Twinings,Twinings|ट्विनिंग्स,Global,big
+b118,c12,tea,Tetley,Tetley|टेटली,Global,big
+b119,c12,tea,Lipton,Lipton|लिप्टन,Global,big
+b120,c12,tea,Organic India,Organic India|ऑर्गेनिक इंडिया,Indian,mid
+b121,c12,tea,Typhoo,Typhoo|टाइफू,Global,mid
+b122,c12,tea,Vahdam,Vahdam|वाहदम,Indian,mid
+b123,c12,tea,Teabox,Teabox|टीबॉक्स,Indian,niche
+b124,c13,motorcycles,Hero,Hero|Hero MotoCorp|Splendor|हीरो|स्प्लेंडर,Indian,big
+b125,c13,motorcycles,Honda,Honda|होंडा,Global,big
+b126,c13,motorcycles,Bajaj,Bajaj|Pulsar|बजाज|पल्सर,Indian,big
+b127,c13,motorcycles,TVS,TVS|टीवीएस,Indian,big
+b128,c13,motorcycles,Royal Enfield,Royal Enfield|Enfield|रॉयल एनफील्ड,Indian,big
+b129,c13,motorcycles,Yamaha,Yamaha|यामाहा,Global,big
+b130,c13,motorcycles,Suzuki,Suzuki|सुजुकी,Global,mid
+b131,c13,motorcycles,KTM,KTM|केटीएम,Global,big
+b132,c13,motorcycles,Jawa,Jawa|जावा,Indian,mid
+b133,c13,motorcycles,Ather,Ather|एथर,Indian,mid
+b134,c13,motorcycles,Revolt,Revolt|रिवोल्ट,Indian,niche
+b135,c14,backpacks,Wildcraft,Wildcraft|वाइल्डक्राफ्ट,Indian,big
+b136,c14,backpacks,Skybags,Skybags|स्काईबैग्स,Indian,big
+b137,c14,backpacks,American Tourister,American Tourister|अमेरिकन टूरिस्टर,Global,big
+b138,c14,backpacks,Safari,Safari|सफारी,Indian,mid
+b139,c14,backpacks,Puma,Puma|पुमा,Global,big
+b140,c14,backpacks,Nike,Nike|नाइकी,Global,big
+b141,c14,backpacks,Adidas,Adidas|अदिदास|एडिडास,Global,big
+b142,c14,backpacks,Fastrack,Fastrack|फास्टट्रैक,Indian,mid
+b143,c14,backpacks,Samsonite,Samsonite|सैमसोनाइट,Global,big
+b144,c14,backpacks,Decathlon,Decathlon|Quechua|डेकाथलॉन,Global,mid
+b145,c14,backpacks,Lavie,Lavie|लवी,Indian,mid
+b146,c14,backpacks,Mokobara,Mokobara|मोकोबारा,Indian,niche
+b147,c15,sunscreen,Neutrogena,Neutrogena|न्यूट्रोजेना,Global,big
+b148,c15,sunscreen,La Roche-Posay,La Roche-Posay|La Roche Posay|ला रोश-पोज़े,Global,mid
+b149,c15,sunscreen,Lotus Herbals,Lotus Herbals|Lotus|लोटस,Indian,mid
+b150,c15,sunscreen,Minimalist,Minimalist|मिनिमलिस्ट,Indian,mid
+b151,c15,sunscreen,Aqualogica,Aqualogica|एक्वालॉजिका,Indian,mid
+b152,c15,sunscreen,Dot & Key,Dot & Key|Dot and Key,Indian,mid
+b153,c15,sunscreen,Sebamed,Sebamed|सेबामेड,Global,mid
+b154,c15,sunscreen,Lakmé,Lakmé|Lakme|लैक्मे,Indian,big
+b155,c15,sunscreen,Biore,Biore|बायोरे,Global,mid
+b156,c15,sunscreen,Bioderma,Bioderma|बायोडर्मा,Global,niche
+b157,c15,sunscreen,Re'equil,Re'equil|Reequil|रीक्विल,Indian,niche
+b158,c15,sunscreen,The Derma Co,The Derma Co|Derma Co,Indian,mid
+b159,c15,sunscreen,Cetaphil,Cetaphil|सेटाफिल,Global,big
+b160,c15,sunscreen,Mamaearth,Mamaearth|ममाअर्थ,Indian,big

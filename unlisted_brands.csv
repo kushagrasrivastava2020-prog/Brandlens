@@ -1,0 +1,260 @@
+category_id,category,brand,answers,spellings
+c01,smartphones,Ai+,1,Ai+
+c01,smartphones,Freedom 251,1,Freedom 251
+c01,smartphones,Infinix,1,Infinix
+c01,smartphones,Itel,1,Itel
+c01,smartphones,Jio,1,Jio
+c01,smartphones,Lyf,1,Lyf
+c01,smartphones,Pinglo,1,Pinglo
+c01,smartphones,Reliance Jio,1,Reliance Jio
+c01,smartphones,Ringing Bells,1,Ringing Bells
+c01,smartphones,Tecno,1,Tecno
+c02,wireless earbuds,Portronics,2,Portronics
+c02,wireless earbuds,pTron,2,pTron
+c02,wireless earbuds,Beats,1,Beats
+c02,wireless earbuds,Edifier,1,Edifier
+c02,wireless earbuds,Fire-Boltt,1,Fire-Boltt
+c02,wireless earbuds,Lava,1,Lava
+c02,wireless earbuds,Shokz,1,Shokz
+c02,wireless earbuds,Shure,1,Shure
+c02,wireless earbuds,Technics,1,Technics
+c03,laptops,Lava,2,Lava
+c03,laptops,HCL,1,HCL
+c03,laptops,Intex,1,Intex
+c03,laptops,Micromax,1,Micromax
+c03,laptops,Razer,1,Razer
+c04,smartwatches,Coros,2,Coros
+c04,smartwatches,Huawei,2,Huawei
+c04,smartwatches,Polar,2,Polar
+c04,smartwatches,Ptron,2,Ptron
+c04,smartwatches,Ambrane,1,Ambrane
+c04,smartwatches,Crossbeats,1,Crossbeats
+c04,smartwatches,Fossil,1,Fossil
+c04,smartwatches,Gizmore,1,Gizmore
+c04,smartwatches,Lava,1,Lava
+c04,smartwatches,Michael Kors,1,Michael Kors
+c04,smartwatches,Suunto,1,Suunto
+c04,smartwatches,Whoop,1,Whoop
+c05,running shoes,Asian,2,Asian
+c05,running shoes,Liberty,2,Liberty
+c05,running shoes,Nivia,2,Nivia
+c05,running shoes,Relaxo,2,Relaxo
+c05,running shoes,Action,1,Action
+c05,running shoes,Ajanta,1,Ajanta
+c05,running shoes,Altra,1,Altra
+c05,running shoes,Bacca Bucci,1,Bacca Bucci
+c05,running shoes,Mizuno,1,Mizuno
+c05,running shoes,On,1,On
+c05,running shoes,Vector X,1,Vector X
+c05,running shoes,Vosky,1,Vosky
+c05,running shoes,Woodland,1,Woodland
+c06,face moisturizer,Bioderma,2,Bioderma
+c06,face moisturizer,Drunk Elephant,2,Drunk Elephant
+c06,face moisturizer,Pilgrim,2,Pilgrim
+c06,face moisturizer,Re'equil,2,Re'equil
+c06,face moisturizer,Tatcha,2,Tatcha
+c06,face moisturizer,Vanicream,2,Vanicream
+c06,face moisturizer,Augustinus Bader,1,Augustinus Bader
+c06,face moisturizer,Aveeno,1,Aveeno
+c06,face moisturizer,Biotique,1,Biotique
+c06,face moisturizer,Fresh,1,Fresh
+c06,face moisturizer,La Shield,1,La Shield
+c06,face moisturizer,Paula's Choice,1,Paula's Choice
+c06,face moisturizer,Sugar Cosmetics,1,Sugar Cosmetics
+c07,shampoo,Briogeo,2,Briogeo
+c07,shampoo,Dabur Vatika,2,Dabur Vatika
+c07,shampoo,Oribe,2,Oribe
+c07,shampoo,Parachute Advansed,2,Parachute Advansed
+c07,shampoo,Plum,2,Plum
+c07,shampoo,The Man Company,2,The Man Company
+c07,shampoo,Vanicream,2,Vanicream
+c07,shampoo,Acure,1,Acure
+c07,shampoo,Aveeno,1,Aveeno
+c07,shampoo,Bare Anatomy,1,Bare Anatomy
+c07,shampoo,Bombay Shaving Company,1,Bombay Shaving Company
+c07,shampoo,CeraVe,1,CeraVe
+c07,shampoo,Cetaphil,1,Cetaphil
+c07,shampoo,Clear,1,Clear
+c07,shampoo,Dabur,1,Dabur
+c07,shampoo,Davines,1,Davines
+c07,shampoo,Great Value,1,Great Value
+c07,shampoo,Hindustan Unilever,1,Hindustan Unilever
+c07,shampoo,Kesh King,1,Kesh King
+c07,shampoo,Khadi Natural,1,Khadi Natural
+c07,shampoo,Kirkland,1,Kirkland
+c07,shampoo,Living Proof,1,Living Proof
+c07,shampoo,Nykaa,1,Nykaa
+c07,shampoo,OGX,1,OGX
+c07,shampoo,Ouai,1,Ouai
+c07,shampoo,P&G,1,P&G
+c07,shampoo,Paul Mitchell,1,Paul Mitchell
+c07,shampoo,Pureology,1,Pureology
+c07,shampoo,Sainsbury's,1,Sainsbury's
+c07,shampoo,Tesco,1,Tesco
+c07,shampoo,The Body Shop,1,The Body Shop
+c07,shampoo,The Derma Co,1,The Derma Co
+c07,shampoo,Trichup,1,Trichup
+c07,shampoo,Vagad's Khadi Herbal,1,Vagad's Khadi Herbal
+c07,shampoo,Vasu Healthcare,1,Vasu Healthcare
+c07,shampoo,Vedaprash,1,Vedaprash
+c08,protein powder,Bulk Supplements,2,Bulk Supplements
+c08,protein powder,Garden of Life,2,Garden of Life
+c08,protein powder,HK Vitals,2,HK Vitals
+c08,protein powder,Nutrabay,2,Nutrabay
+c08,protein powder,The Whole Truth,2,The Whole Truth
+c08,protein powder,Transparent Labs,2,Transparent Labs
+c08,protein powder,Amazing Foods,1,Amazing Foods
+c08,protein powder,Costco Kirkland Signature,1,Costco Kirkland Signature
+c08,protein powder,Gold's Gym,1,Gold's Gym
+c08,protein powder,Great Value,1,Great Value
+c08,protein powder,Gritzo,1,Gritzo
+c08,protein powder,Healthfarm,1,Healthfarm
+c08,protein powder,Herbalife,1,Herbalife
+c08,protein powder,Isopure,1,Isopure
+c08,protein powder,Kirkland,1,Kirkland
+c08,protein powder,Naked,1,Naked
+c08,protein powder,Naked Pea,1,Naked Pea
+c08,protein powder,Nakpro,1,Nakpro
+c08,protein powder,Naturevibe Botanicals,1,Naturevibe Botanicals
+c08,protein powder,Nutricost,1,Nutricost
+c08,protein powder,Pintola,1,Pintola
+c08,protein powder,Thorne,1,Thorne
+c08,protein powder,True Elements,1,True Elements
+c08,protein powder,Ultimate Nutrition,1,Ultimate Nutrition
+c09,air conditioners,Frigidaire,2,Frigidaire
+c09,air conditioners,Fujitsu,2,Fujitsu
+c09,air conditioners,GE,2,GE
+c09,air conditioners,Rheem,2,Rheem
+c09,air conditioners,Amana,1,Amana
+c09,air conditioners,Black+Decker,1,Black+Decker
+c09,air conditioners,Bryant,1,Bryant
+c09,air conditioners,Croma,1,Croma
+c09,air conditioners,Hisense,1,Hisense
+c09,air conditioners,O General,1,O General
+c09,air conditioners,Onida,1,Onida
+c09,air conditioners,TCL,1,TCL
+c10,refrigerators,Blue Star,2,Blue Star
+c10,refrigerators,Electrolux,2,Electrolux
+c10,refrigerators,Hisense,2,Hisense
+c10,refrigerators,BPL,1,BPL
+c10,refrigerators,Havells,1,Havells
+c10,refrigerators,KitchenAid,1,KitchenAid
+c10,refrigerators,Maytag,1,Maytag
+c10,refrigerators,TCL,1,TCL
+c11,mattresses,Brooklyn Bedding,2,Brooklyn Bedding
+c11,mattresses,Emma,2,Emma
+c11,mattresses,Leesa,2,Leesa
+c11,mattresses,Lull,2,Lull
+c11,mattresses,Sleep Number,2,Sleep Number
+c11,mattresses,Springtek,2,Springtek
+c11,mattresses,Avocado,1,Avocado
+c11,mattresses,Beautyrest,1,Beautyrest
+c11,mattresses,Bellsonica,1,Bellsonica
+c11,mattresses,Bombay Dyeing,1,Bombay Dyeing
+c11,mattresses,Centuary,1,Centuary
+c11,mattresses,Kirkland,1,Kirkland
+c11,mattresses,Seasons India,1,Seasons India
+c11,mattresses,Stearns & Foster,1,Stearns & Foster
+c11,mattresses,Zinus,1,Zinus
+c12,tea,Castleton,2,Castleton
+c12,tea,Celestial Seasonings,2,Celestial Seasonings
+c12,tea,Goomtee,2,Goomtee
+c12,tea,Numi,2,Numi
+c12,tea,Rishi Tea,2,Rishi Tea
+c12,tea,Teapigs,2,Teapigs
+c12,tea,Teavana,2,Teavana
+c12,tea,Adagio,1,Adagio
+c12,tea,Adagio Teas,1,Adagio Teas
+c12,tea,Ahmad,1,Ahmad
+c12,tea,Ahmad Tea,1,Ahmad Tea
+c12,tea,Art of Tea,1,Art of Tea
+c12,tea,Blue Tokai,1,Blue Tokai
+c12,tea,Breakaway Matcha,1,Breakaway Matcha
+c12,tea,Chai Point,1,Chai Point
+c12,tea,Clipper,1,Clipper
+c12,tea,DAVIDsTEA,1,DAVIDsTEA
+c12,tea,Fortnum & Mason,1,Fortnum & Mason
+c12,tea,Happy Valley,1,Happy Valley
+c12,tea,Harmutty,1,Harmutty
+c12,tea,Ippodo,1,Ippodo
+c12,tea,Ito En,1,Ito En
+c12,tea,Kanan Devan,1,Kanan Devan
+c12,tea,Karma Kettle,1,Karma Kettle
+c12,tea,Kirkland Signature,1,Kirkland Signature
+c12,tea,Kusmi Tea,1,Kusmi Tea
+c12,tea,Mariage Frères,1,Mariage Frères
+c12,tea,Matcha Love,1,Matcha Love
+c12,tea,Mcleod Russel,1,Mcleod Russel
+c12,tea,PG Tips,1,PG Tips
+c12,tea,Pukka,1,Pukka
+c12,tea,Rare Tea Company,1,Rare Tea Company
+c12,tea,Sleepy Owl,1,Sleepy Owl
+c12,tea,Taylors of Harrogate,1,Taylors of Harrogate
+c12,tea,Tea Drops,1,Tea Drops
+c12,tea,Tea Gschwendner,1,Tea Gschwendner
+c12,tea,Teesta,1,Teesta
+c12,tea,Teesta Valley,1,Teesta Valley
+c12,tea,Verdant Tea,1,Verdant Tea
+c12,tea,White2Tea,1,White2Tea
+c12,tea,Yamamotoyama,1,Yamamotoyama
+c12,tea,Yogi,1,Yogi
+c12,tea,Yogi Tea,1,Yogi Tea
+c12,tea,Yunnan Sourcing,1,Yunnan Sourcing
+c13,motorcycles,Benelli,2,Benelli
+c13,motorcycles,CFMoto,2,CFMoto
+c13,motorcycles,Ola Electric,2,Ola Electric
+c13,motorcycles,Ultraviolette,2,Ultraviolette
+c13,motorcycles,Yezdi,2,Yezdi
+c13,motorcycles,Aprilia,1,Aprilia
+c13,motorcycles,Husqvarna,1,Husqvarna
+c13,motorcycles,Indian,1,Indian
+c13,motorcycles,Okinawa,1,Okinawa
+c13,motorcycles,QJ Motor,1,QJ Motor
+c14,backpacks,Arc'teryx,2,Arc'teryx
+c14,backpacks,Away,2,Away
+c14,backpacks,Eastpak,2,Eastpak
+c14,backpacks,Gear,2,Gear
+c14,backpacks,Hidesign,2,Hidesign
+c14,backpacks,Kelty,2,Kelty
+c14,backpacks,REI Co-op,2,REI Co-op
+c14,backpacks,Tommy Hilfiger,2,Tommy Hilfiger
+c14,backpacks,Tortuga,2,Tortuga
+c14,backpacks,Tumi,2,Tumi
+c14,backpacks,5.11 Tactical,1,5.11 Tactical
+c14,backpacks,Amazon Basics,1,Amazon Basics
+c14,backpacks,Aristocrat,1,Aristocrat
+c14,backpacks,Bellroy,1,Bellroy
+c14,backpacks,Caprese,1,Caprese
+c14,backpacks,Carlton,1,Carlton
+c14,backpacks,Cotopaxi,1,Cotopaxi
+c14,backpacks,F Gear,1,F Gear
+c14,backpacks,Levi's,1,Levi's
+c14,backpacks,Maxpedition,1,Maxpedition
+c14,backpacks,Mystery Ranch,1,Mystery Ranch
+c14,backpacks,Nomatic,1,Nomatic
+c14,backpacks,Teton Sports,1,Teton Sports
+c14,backpacks,The Clownfish,1,The Clownfish
+c15,sunscreen,Badger,2,Badger
+c15,sunscreen,Banana Boat,2,Banana Boat
+c15,sunscreen,Himalaya,2,Himalaya
+c15,sunscreen,Ultra Violette,2,Ultra Violette
+c15,sunscreen,Avène,1,Avène
+c15,sunscreen,Babo Botanicals,1,Babo Botanicals
+c15,sunscreen,Beauty of Joseon,1,Beauty of Joseon
+c15,sunscreen,CVS Health,1,CVS Health
+c15,sunscreen,Coola,1,Coola
+c15,sunscreen,Coppertone,1,Coppertone
+c15,sunscreen,Dr. Sheth's,1,Dr. Sheth's
+c15,sunscreen,Drunk Elephant,1,Drunk Elephant
+c15,sunscreen,Equate,1,Equate
+c15,sunscreen,Foxtale,1,Foxtale
+c15,sunscreen,Garnier,1,Garnier
+c15,sunscreen,Kirkland Signature,1,Kirkland Signature
+c15,sunscreen,Nivea,1,Nivea
+c15,sunscreen,Nivea Sun,1,Nivea Sun
+c15,sunscreen,Pilgrim,1,Pilgrim
+c15,sunscreen,Suganda,1,Suganda
+c15,sunscreen,Tatcha,1,Tatcha
+c15,sunscreen,Thinkbaby,1,Thinkbaby
+c15,sunscreen,Up & Up,1,Up & Up
+c15,sunscreen,Walgreens,1,Walgreens

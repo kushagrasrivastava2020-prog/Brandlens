@@ -1,0 +1,260 @@
+category_id,category,brand,origin
+c01,smartphones,Ai+,Indian
+c01,smartphones,Freedom 251,Indian
+c01,smartphones,Infinix,Global
+c01,smartphones,Itel,Global
+c01,smartphones,Jio,Indian
+c01,smartphones,Lyf,Indian
+c01,smartphones,Pinglo,unknown
+c01,smartphones,Reliance Jio,Indian
+c01,smartphones,Ringing Bells,Indian
+c01,smartphones,Tecno,Global
+c02,wireless earbuds,Beats,Global
+c02,wireless earbuds,Edifier,Global
+c02,wireless earbuds,Fire-Boltt,Indian
+c02,wireless earbuds,Lava,Indian
+c02,wireless earbuds,Portronics,Indian
+c02,wireless earbuds,Shokz,Global
+c02,wireless earbuds,Shure,Global
+c02,wireless earbuds,Technics,Global
+c02,wireless earbuds,pTron,Indian
+c03,laptops,HCL,Indian
+c03,laptops,Intex,Indian
+c03,laptops,Lava,Indian
+c03,laptops,Micromax,Indian
+c03,laptops,Razer,Global
+c04,smartwatches,Ambrane,Indian
+c04,smartwatches,Coros,Global
+c04,smartwatches,Crossbeats,Indian
+c04,smartwatches,Fossil,Global
+c04,smartwatches,Gizmore,Indian
+c04,smartwatches,Huawei,Global
+c04,smartwatches,Lava,Indian
+c04,smartwatches,Michael Kors,Global
+c04,smartwatches,Polar,Global
+c04,smartwatches,Ptron,Indian
+c04,smartwatches,Suunto,Global
+c04,smartwatches,Whoop,Global
+c05,running shoes,Action,Indian
+c05,running shoes,Ajanta,Indian
+c05,running shoes,Altra,Global
+c05,running shoes,Asian,Indian
+c05,running shoes,Bacca Bucci,Indian
+c05,running shoes,Liberty,Indian
+c05,running shoes,Mizuno,Global
+c05,running shoes,Nivia,Indian
+c05,running shoes,On,Global
+c05,running shoes,Relaxo,Indian
+c05,running shoes,Vector X,unknown
+c05,running shoes,Vosky,unknown
+c05,running shoes,Woodland,Indian
+c06,face moisturizer,Augustinus Bader,Global
+c06,face moisturizer,Aveeno,Global
+c06,face moisturizer,Bioderma,Global
+c06,face moisturizer,Biotique,Indian
+c06,face moisturizer,Drunk Elephant,Global
+c06,face moisturizer,Fresh,Global
+c06,face moisturizer,La Shield,unknown
+c06,face moisturizer,Paula's Choice,Global
+c06,face moisturizer,Pilgrim,Indian
+c06,face moisturizer,Re'equil,Indian
+c06,face moisturizer,Sugar Cosmetics,Indian
+c06,face moisturizer,Tatcha,Global
+c06,face moisturizer,Vanicream,Global
+c07,shampoo,Acure,Global
+c07,shampoo,Aveeno,Global
+c07,shampoo,Bare Anatomy,Global
+c07,shampoo,Bombay Shaving Company,Indian
+c07,shampoo,Briogeo,Global
+c07,shampoo,CeraVe,Global
+c07,shampoo,Cetaphil,Global
+c07,shampoo,Clear,Global
+c07,shampoo,Dabur,Indian
+c07,shampoo,Dabur Vatika,Indian
+c07,shampoo,Davines,Global
+c07,shampoo,Great Value,Global
+c07,shampoo,Hindustan Unilever,Indian
+c07,shampoo,Kesh King,Indian
+c07,shampoo,Khadi Natural,Indian
+c07,shampoo,Kirkland,Global
+c07,shampoo,Living Proof,Global
+c07,shampoo,Nykaa,Indian
+c07,shampoo,OGX,Global
+c07,shampoo,Oribe,Global
+c07,shampoo,Ouai,Global
+c07,shampoo,P&G,Global
+c07,shampoo,Parachute Advansed,Indian
+c07,shampoo,Paul Mitchell,Global
+c07,shampoo,Plum,Indian
+c07,shampoo,Pureology,Global
+c07,shampoo,Sainsbury's,Global
+c07,shampoo,Tesco,Global
+c07,shampoo,The Body Shop,Global
+c07,shampoo,The Derma Co,Indian
+c07,shampoo,The Man Company,Indian
+c07,shampoo,Trichup,Indian
+c07,shampoo,Vagad's Khadi Herbal,Indian
+c07,shampoo,Vanicream,Global
+c07,shampoo,Vasu Healthcare,Indian
+c07,shampoo,Vedaprash,Indian
+c08,protein powder,Amazing Foods,unknown
+c08,protein powder,Bulk Supplements,Global
+c08,protein powder,Costco Kirkland Signature,Global
+c08,protein powder,Garden of Life,Global
+c08,protein powder,Gold's Gym,Global
+c08,protein powder,Great Value,Global
+c08,protein powder,Gritzo,Indian
+c08,protein powder,HK Vitals,Indian
+c08,protein powder,Healthfarm,unknown
+c08,protein powder,Herbalife,Global
+c08,protein powder,Isopure,Global
+c08,protein powder,Kirkland,Global
+c08,protein powder,Naked,Global
+c08,protein powder,Naked Pea,Global
+c08,protein powder,Nakpro,unknown
+c08,protein powder,Naturevibe Botanicals,Indian
+c08,protein powder,Nutrabay,Indian
+c08,protein powder,Nutricost,Global
+c08,protein powder,Pintola,Indian
+c08,protein powder,The Whole Truth,Indian
+c08,protein powder,Thorne,Global
+c08,protein powder,Transparent Labs,Global
+c08,protein powder,True Elements,Indian
+c08,protein powder,Ultimate Nutrition,Global
+c09,air conditioners,Amana,Global
+c09,air conditioners,Black+Decker,Global
+c09,air conditioners,Bryant,Global
+c09,air conditioners,Croma,Indian
+c09,air conditioners,Frigidaire,Global
+c09,air conditioners,Fujitsu,Global
+c09,air conditioners,GE,Global
+c09,air conditioners,Hisense,Global
+c09,air conditioners,O General,unknown
+c09,air conditioners,Onida,Indian
+c09,air conditioners,Rheem,Global
+c09,air conditioners,TCL,Global
+c10,refrigerators,BPL,Indian
+c10,refrigerators,Blue Star,Indian
+c10,refrigerators,Electrolux,Global
+c10,refrigerators,Havells,Indian
+c10,refrigerators,Hisense,Global
+c10,refrigerators,KitchenAid,Global
+c10,refrigerators,Maytag,Global
+c10,refrigerators,TCL,Global
+c11,mattresses,Avocado,Global
+c11,mattresses,Beautyrest,Global
+c11,mattresses,Bellsonica,unknown
+c11,mattresses,Bombay Dyeing,Indian
+c11,mattresses,Brooklyn Bedding,Global
+c11,mattresses,Centuary,Indian
+c11,mattresses,Emma,Global
+c11,mattresses,Kirkland,Global
+c11,mattresses,Leesa,Global
+c11,mattresses,Lull,Global
+c11,mattresses,Seasons India,Indian
+c11,mattresses,Sleep Number,Global
+c11,mattresses,Springtek,Indian
+c11,mattresses,Stearns & Foster,Global
+c11,mattresses,Zinus,Global
+c12,tea,Adagio,Global
+c12,tea,Adagio Teas,Global
+c12,tea,Ahmad,Global
+c12,tea,Ahmad Tea,Global
+c12,tea,Art of Tea,Global
+c12,tea,Blue Tokai,Indian
+c12,tea,Breakaway Matcha,Global
+c12,tea,Castleton,unknown
+c12,tea,Celestial Seasonings,Global
+c12,tea,Chai Point,Indian
+c12,tea,Clipper,Global
+c12,tea,DAVIDsTEA,Global
+c12,tea,Fortnum & Mason,Global
+c12,tea,Goomtee,unknown
+c12,tea,Happy Valley,Indian
+c12,tea,Harmutty,unknown
+c12,tea,Ippodo,Global
+c12,tea,Ito En,Global
+c12,tea,Kanan Devan,Indian
+c12,tea,Karma Kettle,unknown
+c12,tea,Kirkland Signature,Global
+c12,tea,Kusmi Tea,Global
+c12,tea,Mariage Frères,Global
+c12,tea,Matcha Love,unknown
+c12,tea,Mcleod Russel,Indian
+c12,tea,Numi,Global
+c12,tea,PG Tips,Global
+c12,tea,Pukka,Global
+c12,tea,Rare Tea Company,Global
+c12,tea,Rishi Tea,Global
+c12,tea,Sleepy Owl,unknown
+c12,tea,Taylors of Harrogate,Global
+c12,tea,Tea Drops,Global
+c12,tea,Tea Gschwendner,Global
+c12,tea,Teapigs,Global
+c12,tea,Teavana,Global
+c12,tea,Teesta,Indian
+c12,tea,Teesta Valley,Indian
+c12,tea,Verdant Tea,unknown
+c12,tea,White2Tea,Global
+c12,tea,Yamamotoyama,Global
+c12,tea,Yogi,Global
+c12,tea,Yogi Tea,Global
+c12,tea,Yunnan Sourcing,Global
+c13,motorcycles,Aprilia,Global
+c13,motorcycles,Benelli,Global
+c13,motorcycles,CFMoto,Global
+c13,motorcycles,Husqvarna,Global
+c13,motorcycles,Indian,Global
+c13,motorcycles,Okinawa,Indian
+c13,motorcycles,Ola Electric,Indian
+c13,motorcycles,QJ Motor,Global
+c13,motorcycles,Ultraviolette,Indian
+c13,motorcycles,Yezdi,Indian
+c14,backpacks,5.11 Tactical,Global
+c14,backpacks,Amazon Basics,Global
+c14,backpacks,Arc'teryx,Global
+c14,backpacks,Aristocrat,Indian
+c14,backpacks,Away,Global
+c14,backpacks,Bellroy,Global
+c14,backpacks,Caprese,Indian
+c14,backpacks,Carlton,unknown
+c14,backpacks,Cotopaxi,Global
+c14,backpacks,Eastpak,Global
+c14,backpacks,F Gear,Indian
+c14,backpacks,Gear,unknown
+c14,backpacks,Hidesign,Indian
+c14,backpacks,Kelty,Global
+c14,backpacks,Levi's,Global
+c14,backpacks,Maxpedition,Global
+c14,backpacks,Mystery Ranch,Global
+c14,backpacks,Nomatic,Global
+c14,backpacks,REI Co-op,Global
+c14,backpacks,Teton Sports,Global
+c14,backpacks,The Clownfish,Indian
+c14,backpacks,Tommy Hilfiger,Global
+c14,backpacks,Tortuga,Global
+c14,backpacks,Tumi,Global
+c15,sunscreen,Avène,Global
+c15,sunscreen,Babo Botanicals,Global
+c15,sunscreen,Badger,Global
+c15,sunscreen,Banana Boat,Global
+c15,sunscreen,Beauty of Joseon,Global
+c15,sunscreen,CVS Health,Global
+c15,sunscreen,Coola,Global
+c15,sunscreen,Coppertone,Global
+c15,sunscreen,Dr. Sheth's,Indian
+c15,sunscreen,Drunk Elephant,Global
+c15,sunscreen,Equate,Global
+c15,sunscreen,Foxtale,Indian
+c15,sunscreen,Garnier,Global
+c15,sunscreen,Himalaya,Indian
+c15,sunscreen,Kirkland Signature,Global
+c15,sunscreen,Nivea,Global
+c15,sunscreen,Nivea Sun,Global
+c15,sunscreen,Pilgrim,Indian
+c15,sunscreen,Suganda,unknown
+c15,sunscreen,Tatcha,Global
+c15,sunscreen,Thinkbaby,Global
+c15,sunscreen,Ultra Violette,Global
+c15,sunscreen,Up & Up,Global
+c15,sunscreen,Walgreens,Global

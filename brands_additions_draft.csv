@@ -1,0 +1,113 @@
+brand_id,category_id,category,brand,aliases,origin,size_tier,answers,approve,note
+b161,c01,smartphones,Vivo,Vivo|iQOO|वीवो|आईकू,Global,big,10,y,"iQOO sub-brand hai, POCO->Xiaomi ki tarah merge"
+b162,c01,smartphones,Oppo,Oppo|ओप्पो,Global,big,8,y,
+b163,c01,smartphones,Google Pixel,Google Pixel|Pixel|Google|गूगल पिक्सल,Global,big,16,y,'Google Play/Pay/Assistant' wagairah exclude honge
+b164,c01,smartphones,Karbonn,Karbonn,Indian,niche,3,y,कार्बन = carbon bhi; smartphone answers mein risk kam
+b165,c02,wireless earbuds,Realme,Realme|Realme Buds|रियलमी,Global,big,17,y,
+b166,c02,wireless earbuds,Bose,Bose|बोस,Global,mid,14,y,
+b167,c02,wireless earbuds,Nothing,Nothing|CMF|नथिंग,Global,mid,10,y,c01 jaisa; Nothing case-sensitive
+b168,c02,wireless earbuds,Jabra,Jabra,Global,mid,6,y,
+b169,c02,wireless earbuds,Xiaomi,Xiaomi|Redmi|Mi|शाओमी|रेडमी,Global,big,6,y,Redmi Buds
+b170,c02,wireless earbuds,Sennheiser,Sennheiser|सेनहाइज़र,Global,mid,3,y,
+b171,c02,wireless earbuds,Anker Soundcore,Anker Soundcore|Soundcore|Anker|साउंडकोर,Global,mid,9,y,
+b172,c02,wireless earbuds,Google Pixel Buds,Pixel Buds|Google|पिक्सल बड्स,Global,big,3,y,'Google Play' wagairah exclude
+b173,c02,wireless earbuds,EarFun,EarFun|इयरफन,Global,niche,3,y,
+b174,c02,wireless earbuds,JLab,JLab|जेलैब,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b175,c03,laptops,Microsoft Surface,Microsoft Surface|Surface|माइक्रोसॉफ्ट सरफेस,Global,big,4,y,plain 'Microsoft' nahi (Office/Windows se takrata); Surface case-sensitive
+b176,c03,laptops,Zebronics,Zebronics|ज़ेबरोनिक्स,Indian,mid,3,y,c02 jaisa
+b177,c03,laptops,Framework,Framework,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo); case-sensitive
+b178,c04,smartwatches,Fitbit,Fitbit|फिटबिट,Global,mid,8,y,
+b179,c04,smartwatches,Xiaomi,Xiaomi|Redmi|Mi|शाओमी|रेडमी,Global,big,5,y,
+b180,c04,smartwatches,Google Pixel Watch,Pixel Watch|पिक्सल वॉच,Global,big,6,y,plain 'Google' nahi ('Fitbit is owned by Google' se takrata)
+b181,c05,running shoes,New Balance,New Balance|न्यू बैलेंस,Global,mid,19,y,
+b182,c05,running shoes,Brooks,Brooks|ब्रूक्स,Global,niche,17,y,case-sensitive
+b183,c05,running shoes,Hoka,Hoka|होका,Global,niche,14,y,
+b184,c05,running shoes,Saucony,Saucony|सॉकोनी,Global,niche,10,y,
+b185,c05,running shoes,Bata,Bata,Global,big,3,y,"Bata ka origin Czech/Swiss hai (Bata India listed company); case-sensitive, Hinglish 'bata do' se bachne ke liye"
+b186,c05,running shoes,Sparx,Sparx|स्पार्क्स,Indian,mid,3,y,Relaxo ka brand
+b187,c06,face moisturizer,La Roche-Posay,La Roche-Posay|La Roche Posay|ला रोश-पोज़े,Global,mid,16,y,c15 jaisa
+b188,c06,face moisturizer,CeraVe,CeraVe|सेरावी,Global,mid,11,y,
+b189,c06,face moisturizer,Kiehl's,Kiehl's|Kiehls|कील्स,Global,mid,8,y,
+b190,c06,face moisturizer,Clinique,Clinique,Global,mid,4,y,Devanagari alias chhoda - aam Hindi shabd se takra sakta hai (क्लिनिक = clinic)
+b191,c06,face moisturizer,Forest Essentials,Forest Essentials|फॉरेस्ट एसेंशियल्स,Indian,mid,4,y,
+b192,c06,face moisturizer,Kama Ayurveda,Kama Ayurveda|कामा आयुर्वेद,Indian,mid,4,y,
+b193,c06,face moisturizer,Lakmé,Lakmé|Lakme|लैक्मे,Indian,big,4,y,c15 jaisa
+b194,c06,face moisturizer,Olay,Olay,Global,big,3,y,ओले = hail bhi; risk kam
+b195,c06,face moisturizer,Eucerin,Eucerin|यूसेरिन,Global,niche,3,y,
+b196,c07,shampoo,Clinic Plus,Clinic Plus|क्लिनिक प्लस,Indian,big,17,y,"HUL (Unilever) ka brand, India mein shuru hua; Lakmé ki tarah Indian rakha - aap tay karo"
+b197,c07,shampoo,Garnier,Garnier|Garnier Fructis|Fructis|गार्नियर,Global,big,4,y,
+b198,c07,shampoo,Neutrogena,Neutrogena|न्यूट्रोजेना,Global,big,3,y,c06/c15 jaisa
+b199,c07,shampoo,Forest Essentials,Forest Essentials|फॉरेस्ट एसेंशियल्स,Indian,mid,6,y,
+b200,c07,shampoo,Kama Ayurveda,Kama Ayurveda|कामा आयुर्वेद,Indian,mid,3,y,
+b201,c07,shampoo,Minimalist,Minimalist|मिनिमलिस्ट,Indian,mid,3,y,case-sensitive (pehle se)
+b202,c07,shampoo,Traya,Traya|ट्राया,Indian,mid,3,y,
+b203,c07,shampoo,Nizoral,Nizoral|निज़ोरल,Global,mid,3,y,
+b204,c07,shampoo,Kérastase,Kérastase|Kerastase|केरास्टेस,Global,niche,6,y,
+b205,c07,shampoo,Olaplex,Olaplex|ओलाप्लेक्स,Global,niche,6,y,
+b206,c07,shampoo,Aveda,Aveda|अवेदा,Global,niche,3,y,
+b207,c07,shampoo,Moroccanoil,Moroccanoil|मोरक्कनऑयल,Global,niche,3,y,
+b208,c07,shampoo,Redken,Redken|रेडकेन,Global,niche,3,y,
+b209,c07,shampoo,Suave,Suave|स्वाव,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo); case-sensitive
+b210,c08,protein powder,Fast&Up,Fast&Up|Fast & Up|Fast and Up|फास्ट एंड अप,Indian,mid,8,y,
+b211,c08,protein powder,Oziva,Oziva|ओज़िवा,Indian,mid,5,y,
+b212,c08,protein powder,Plix,Plix|प्लिक्स,Indian,niche,4,y,
+b213,c08,protein powder,Orgain,Orgain|ऑर्गेन,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b214,c09,air conditioners,Haier,Haier,Global,big,5,y,c10 jaisa; हायर = higher bhi
+b215,c09,air conditioners,Mitsubishi Electric,Mitsubishi Electric|Mitsubishi|मित्सुबिशी,Global,mid,7,y,plain Mitsubishi mein Mitsubishi Heavy bhi aa jaayega
+b216,c09,air conditioners,Midea,Midea,Global,niche,4,y,Devanagari alias chhoda - aam Hindi shabd se takra sakta hai (मीडिया = media)
+b217,c09,air conditioners,Gree,Gree|ग्री,Global,niche,3,y,
+b218,c09,air conditioners,Lennox,Lennox|लेनॉक्स,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b219,c09,air conditioners,Goodman,Goodman|गुडमैन,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b220,c09,air conditioners,Trane,Trane,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo); Devanagari alias chhoda - aam Hindi shabd se takra sakta hai (ट्रेन = train)
+b221,c10,refrigerators,Lloyd,Lloyd|लॉयड,Indian,mid,5,y,c09 jaisa
+b222,c10,refrigerators,Hitachi,Hitachi|हिताची,Global,mid,4,y,
+b223,c10,refrigerators,Videocon,Videocon|वीडियोकॉन,Indian,mid,4,y,"ab lagbhag band, par naam purana aur jaana-pehchana"
+b224,c10,refrigerators,Siemens,Siemens|सीमेंस,Global,niche,4,y,
+b225,c10,refrigerators,Liebherr,Liebherr|लीबहेर,Global,niche,3,y,
+b226,c10,refrigerators,Miele,Miele|मीले,Global,niche,5,y,
+b227,c10,refrigerators,Frigidaire,Frigidaire|फ्रिजिडेयर,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b228,c10,refrigerators,GE,GE Appliances|GE,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b229,c10,refrigerators,Sub-Zero,Sub-Zero|Sub Zero|सब-ज़ीरो,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b230,c11,mattresses,Godrej Interio,Godrej Interio|Interio|Godrej|गोदरेज इंटीरियो|गोदरेज,Indian,big,3,y,c11 mein aur koi Godrej nahi
+b231,c11,mattresses,Sleepyhead,Sleepyhead|स्लीपीहेड,Indian,mid,15,n,"Duroflex (b104) ka alias banega, naya brand nahi"
+b232,c11,mattresses,Coirfit,Coirfit|कॉयरफिट,Indian,mid,8,y,
+b233,c11,mattresses,Peps,Peps|पेप्स,Indian,mid,4,y,
+b234,c11,mattresses,Casper,Casper|कैस्पर,Global,niche,6,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b235,c11,mattresses,Helix,Helix|हेलिक्स,Global,niche,5,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b236,c11,mattresses,Nectar,Nectar|नेक्टर,Global,niche,5,y,US-centric: India mein officially shayad nahi milta (verify karo); case-sensitive
+b237,c11,mattresses,Purple,Purple,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo); case-sensitive; Devanagari alias chhoda - aam Hindi shabd se takra sakta hai (पर्पल = rang)
+b238,c11,mattresses,Saatva,Saatva|सात्वा,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b239,c11,mattresses,Tuft & Needle,Tuft & Needle|Tuft and Needle|टफ्ट एंड नीडल,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b240,c11,mattresses,Simmons,Simmons|सिमंस,Global,niche,3,y,
+b241,c12,tea,Girnar,Girnar|गिरनार,Indian,mid,8,y,
+b242,c12,tea,Goodricke,Goodricke|गुडरिक,Indian,mid,4,y,
+b243,c12,tea,Makaibari,Makaibari|मकाईबारी,Indian,niche,6,y,
+b244,c12,tea,Halmari,Halmari|हलमरी,Indian,niche,3,y,
+b245,c12,tea,Bigelow,Bigelow|बिगेलो,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b246,c12,tea,Harney & Sons,Harney & Sons|Harney and Sons|हार्नी एंड संस,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b247,c12,tea,Yorkshire Tea,Yorkshire Tea|यॉर्कशायर टी,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b248,c13,motorcycles,BMW Motorrad,BMW Motorrad|BMW|बीएमडब्ल्यू,Global,big,8,y,
+b249,c13,motorcycles,Kawasaki,Kawasaki|कावासाकी,Global,mid,7,y,
+b250,c13,motorcycles,Harley-Davidson,Harley-Davidson|Harley Davidson|Harley|हार्ले-डेविडसन|हार्ले डेविडसन,Global,mid,6,y,
+b251,c13,motorcycles,Ducati,Ducati|डुकाटी,Global,mid,6,y,
+b252,c13,motorcycles,Triumph,Triumph|ट्रायम्फ,Global,mid,6,y,case-sensitive
+b253,c14,backpacks,VIP,VIP|VIP Bags,Indian,big,9,y,
+b254,c14,backpacks,The North Face,The North Face|North Face|द नॉर्थ फेस|नॉर्थ फेस,Global,mid,3,y,
+b255,c14,backpacks,JanSport,JanSport|जैनस्पोर्ट,Global,mid,4,y,
+b256,c14,backpacks,Targus,Targus|टार्गस,Global,mid,4,y,
+b257,c14,backpacks,Nasher Miles,Nasher Miles|नैशर माइल्स,Indian,niche,3,y,
+b258,c14,backpacks,Osprey,Osprey|ऑस्प्रे,Global,niche,13,y,
+b259,c14,backpacks,Deuter,Deuter|डॉयटर,Global,niche,8,y,
+b260,c14,backpacks,Herschel,Herschel|हर्शेल,Global,niche,9,y,
+b261,c14,backpacks,Gregory,Gregory|ग्रेगरी,Global,niche,8,y,
+b262,c14,backpacks,Fjällräven,Fjällräven|Fjallraven|Kånken|Kanken|फ़्जेलरावेन,Global,niche,7,y,
+b263,c14,backpacks,Peak Design,Peak Design|पीक डिज़ाइन,Global,niche,7,y,
+b264,c14,backpacks,Patagonia,Patagonia|पैटागोनिया,Global,niche,6,y,
+b265,c14,backpacks,Timbuk2,Timbuk2|टिम्बक2,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b266,c15,sunscreen,Biotique,Biotique|बायोटिक,Indian,mid,11,y,c07 jaisa
+b267,c15,sunscreen,Plum,Plum|प्लम,Indian,mid,3,y,c06 jaisa; case-sensitive
+b268,c15,sunscreen,CeraVe,CeraVe|सेरावी,Global,mid,4,y,
+b269,c15,sunscreen,La Shield,La Shield|ला शील्ड,Indian,niche,5,y,Glenmark ka brand
+b270,c15,sunscreen,EltaMD,EltaMD|एल्टाएमडी,Global,niche,6,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b271,c15,sunscreen,Blue Lizard,Blue Lizard|ब्लू लिज़र्ड,Global,niche,4,y,US-centric: India mein officially shayad nahi milta (verify karo)
+b272,c15,sunscreen,Supergoop,Supergoop|सुपरगूप,Global,niche,3,y,US-centric: India mein officially shayad nahi milta (verify karo); 'Supergoop!' ka '!' regex word-boundary todta hai

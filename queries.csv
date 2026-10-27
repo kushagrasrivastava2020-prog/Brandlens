@@ -1,0 +1,361 @@
+﻿query_id,group_id,category_id,category,query_type,language,query_text
+q001,c01_best,c01,smartphones,best,English,What are the best brands for smartphones?
+q002,c01_best,c01,smartphones,best,Hindi,स्मार्टफोन के सबसे अच्छे ब्रांड कौन से हैं?
+q003,c01_best,c01,smartphones,best,Hinglish,smartphones ke sabse achhe brands kaun se hain?
+q004,c01_budget,c01,smartphones,budget,English,"Which brand is best for smartphones under ₹20,000?"
+q005,c01_budget,c01,smartphones,budget,Hindi,"₹20,000 के अंदर स्मार्टफोन का कौन सा ब्रांड सबसे अच्छा है?"
+q006,c01_budget,c01,smartphones,budget,Hinglish,"₹20,000 ke andar smartphones ka kaun sa brand sabse accha hai?"
+q007,c01_indian,c01,smartphones,indian,English,Which Indian brands are good for smartphones?
+q008,c01_indian,c01,smartphones,indian,Hindi,स्मार्टफोन के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q009,c01_indian,c01,smartphones,indian,Hinglish,smartphones ke liye kaun se Indian brands achhe hain?
+q010,c01_beginner,c01,smartphones,beginner,English,I'm new to buying smartphones. Which brand should I trust?
+q011,c01_beginner,c01,smartphones,beginner,Hindi,"मैं स्मार्टफोन पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q012,c01_beginner,c01,smartphones,beginner,Hinglish,"Main smartphones pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q013,c01_gift,c01,smartphones,gift,English,Which brand of smartphones is good to gift someone?
+q014,c01_gift,c01,smartphones,gift,Hindi,किसी को गिफ्ट देने के लिए स्मार्टफोन का कौन सा ब्रांड अच्छा रहेगा?
+q015,c01_gift,c01,smartphones,gift,Hinglish,Kisi ko gift dene ke liye smartphones ka kaun sa brand accha rahega?
+q016,c01_reliable,c01,smartphones,reliable,English,Which brand of smartphones is the most reliable and long-lasting?
+q017,c01_reliable,c01,smartphones,reliable,Hindi,स्मार्टफोन का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q018,c01_reliable,c01,smartphones,reliable,Hinglish,smartphones ka kaun sa brand sabse reliable aur tikau hai?
+q019,c01_top3,c01,smartphones,top3,English,Recommend your top 3 brands for smartphones in India.
+q020,c01_top3,c01,smartphones,top3,Hindi,भारत में स्मार्टफोन के टॉप 3 ब्रांड बताओ।
+q021,c01_top3,c01,smartphones,top3,Hinglish,India mein smartphones ke top 3 brands batao.
+q022,c01_value,c01,smartphones,value,English,Which brand of smartphones gives the best value for money?
+q023,c01_value,c01,smartphones,value,Hindi,स्मार्टफोन का कौन सा ब्रांड पैसा वसूल है?
+q024,c01_value,c01,smartphones,value,Hinglish,smartphones ka kaun sa brand paisa vasool hai?
+q025,c02_best,c02,wireless earbuds,best,English,What are the best brands for wireless earbuds?
+q026,c02_best,c02,wireless earbuds,best,Hindi,वायरलेस इयरबड्स के सबसे अच्छे ब्रांड कौन से हैं?
+q027,c02_best,c02,wireless earbuds,best,Hinglish,wireless earbuds ke sabse achhe brands kaun se hain?
+q028,c02_budget,c02,wireless earbuds,budget,English,"Which brand is best for wireless earbuds under ₹2,000?"
+q029,c02_budget,c02,wireless earbuds,budget,Hindi,"₹2,000 के अंदर वायरलेस इयरबड्स का कौन सा ब्रांड सबसे अच्छा है?"
+q030,c02_budget,c02,wireless earbuds,budget,Hinglish,"₹2,000 ke andar wireless earbuds ka kaun sa brand sabse accha hai?"
+q031,c02_indian,c02,wireless earbuds,indian,English,Which Indian brands are good for wireless earbuds?
+q032,c02_indian,c02,wireless earbuds,indian,Hindi,वायरलेस इयरबड्स के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q033,c02_indian,c02,wireless earbuds,indian,Hinglish,wireless earbuds ke liye kaun se Indian brands achhe hain?
+q034,c02_beginner,c02,wireless earbuds,beginner,English,I'm new to buying wireless earbuds. Which brand should I trust?
+q035,c02_beginner,c02,wireless earbuds,beginner,Hindi,"मैं वायरलेस इयरबड्स पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q036,c02_beginner,c02,wireless earbuds,beginner,Hinglish,"Main wireless earbuds pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q037,c02_gift,c02,wireless earbuds,gift,English,Which brand of wireless earbuds is good to gift someone?
+q038,c02_gift,c02,wireless earbuds,gift,Hindi,किसी को गिफ्ट देने के लिए वायरलेस इयरबड्स का कौन सा ब्रांड अच्छा रहेगा?
+q039,c02_gift,c02,wireless earbuds,gift,Hinglish,Kisi ko gift dene ke liye wireless earbuds ka kaun sa brand accha rahega?
+q040,c02_reliable,c02,wireless earbuds,reliable,English,Which brand of wireless earbuds is the most reliable and long-lasting?
+q041,c02_reliable,c02,wireless earbuds,reliable,Hindi,वायरलेस इयरबड्स का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q042,c02_reliable,c02,wireless earbuds,reliable,Hinglish,wireless earbuds ka kaun sa brand sabse reliable aur tikau hai?
+q043,c02_top3,c02,wireless earbuds,top3,English,Recommend your top 3 brands for wireless earbuds in India.
+q044,c02_top3,c02,wireless earbuds,top3,Hindi,भारत में वायरलेस इयरबड्स के टॉप 3 ब्रांड बताओ।
+q045,c02_top3,c02,wireless earbuds,top3,Hinglish,India mein wireless earbuds ke top 3 brands batao.
+q046,c02_value,c02,wireless earbuds,value,English,Which brand of wireless earbuds gives the best value for money?
+q047,c02_value,c02,wireless earbuds,value,Hindi,वायरलेस इयरबड्स का कौन सा ब्रांड पैसा वसूल है?
+q048,c02_value,c02,wireless earbuds,value,Hinglish,wireless earbuds ka kaun sa brand paisa vasool hai?
+q049,c03_best,c03,laptops,best,English,What are the best brands for laptops?
+q050,c03_best,c03,laptops,best,Hindi,लैपटॉप के सबसे अच्छे ब्रांड कौन से हैं?
+q051,c03_best,c03,laptops,best,Hinglish,laptops ke sabse achhe brands kaun se hain?
+q052,c03_budget,c03,laptops,budget,English,"Which brand is best for laptops under ₹50,000?"
+q053,c03_budget,c03,laptops,budget,Hindi,"₹50,000 के अंदर लैपटॉप का कौन सा ब्रांड सबसे अच्छा है?"
+q054,c03_budget,c03,laptops,budget,Hinglish,"₹50,000 ke andar laptops ka kaun sa brand sabse accha hai?"
+q055,c03_indian,c03,laptops,indian,English,Which Indian brands are good for laptops?
+q056,c03_indian,c03,laptops,indian,Hindi,लैपटॉप के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q057,c03_indian,c03,laptops,indian,Hinglish,laptops ke liye kaun se Indian brands achhe hain?
+q058,c03_beginner,c03,laptops,beginner,English,I'm new to buying laptops. Which brand should I trust?
+q059,c03_beginner,c03,laptops,beginner,Hindi,"मैं लैपटॉप पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q060,c03_beginner,c03,laptops,beginner,Hinglish,"Main laptops pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q061,c03_gift,c03,laptops,gift,English,Which brand of laptops is good to gift someone?
+q062,c03_gift,c03,laptops,gift,Hindi,किसी को गिफ्ट देने के लिए लैपटॉप का कौन सा ब्रांड अच्छा रहेगा?
+q063,c03_gift,c03,laptops,gift,Hinglish,Kisi ko gift dene ke liye laptops ka kaun sa brand accha rahega?
+q064,c03_reliable,c03,laptops,reliable,English,Which brand of laptops is the most reliable and long-lasting?
+q065,c03_reliable,c03,laptops,reliable,Hindi,लैपटॉप का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q066,c03_reliable,c03,laptops,reliable,Hinglish,laptops ka kaun sa brand sabse reliable aur tikau hai?
+q067,c03_top3,c03,laptops,top3,English,Recommend your top 3 brands for laptops in India.
+q068,c03_top3,c03,laptops,top3,Hindi,भारत में लैपटॉप के टॉप 3 ब्रांड बताओ।
+q069,c03_top3,c03,laptops,top3,Hinglish,India mein laptops ke top 3 brands batao.
+q070,c03_value,c03,laptops,value,English,Which brand of laptops gives the best value for money?
+q071,c03_value,c03,laptops,value,Hindi,लैपटॉप का कौन सा ब्रांड पैसा वसूल है?
+q072,c03_value,c03,laptops,value,Hinglish,laptops ka kaun sa brand paisa vasool hai?
+q073,c04_best,c04,smartwatches,best,English,What are the best brands for smartwatches?
+q074,c04_best,c04,smartwatches,best,Hindi,स्मार्टवॉच के सबसे अच्छे ब्रांड कौन से हैं?
+q075,c04_best,c04,smartwatches,best,Hinglish,smartwatches ke sabse achhe brands kaun se hain?
+q076,c04_budget,c04,smartwatches,budget,English,"Which brand is best for smartwatches under ₹3,000?"
+q077,c04_budget,c04,smartwatches,budget,Hindi,"₹3,000 के अंदर स्मार्टवॉच का कौन सा ब्रांड सबसे अच्छा है?"
+q078,c04_budget,c04,smartwatches,budget,Hinglish,"₹3,000 ke andar smartwatches ka kaun sa brand sabse accha hai?"
+q079,c04_indian,c04,smartwatches,indian,English,Which Indian brands are good for smartwatches?
+q080,c04_indian,c04,smartwatches,indian,Hindi,स्मार्टवॉच के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q081,c04_indian,c04,smartwatches,indian,Hinglish,smartwatches ke liye kaun se Indian brands achhe hain?
+q082,c04_beginner,c04,smartwatches,beginner,English,I'm new to buying smartwatches. Which brand should I trust?
+q083,c04_beginner,c04,smartwatches,beginner,Hindi,"मैं स्मार्टवॉच पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q084,c04_beginner,c04,smartwatches,beginner,Hinglish,"Main smartwatches pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q085,c04_gift,c04,smartwatches,gift,English,Which brand of smartwatches is good to gift someone?
+q086,c04_gift,c04,smartwatches,gift,Hindi,किसी को गिफ्ट देने के लिए स्मार्टवॉच का कौन सा ब्रांड अच्छा रहेगा?
+q087,c04_gift,c04,smartwatches,gift,Hinglish,Kisi ko gift dene ke liye smartwatches ka kaun sa brand accha rahega?
+q088,c04_reliable,c04,smartwatches,reliable,English,Which brand of smartwatches is the most reliable and long-lasting?
+q089,c04_reliable,c04,smartwatches,reliable,Hindi,स्मार्टवॉच का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q090,c04_reliable,c04,smartwatches,reliable,Hinglish,smartwatches ka kaun sa brand sabse reliable aur tikau hai?
+q091,c04_top3,c04,smartwatches,top3,English,Recommend your top 3 brands for smartwatches in India.
+q092,c04_top3,c04,smartwatches,top3,Hindi,भारत में स्मार्टवॉच के टॉप 3 ब्रांड बताओ।
+q093,c04_top3,c04,smartwatches,top3,Hinglish,India mein smartwatches ke top 3 brands batao.
+q094,c04_value,c04,smartwatches,value,English,Which brand of smartwatches gives the best value for money?
+q095,c04_value,c04,smartwatches,value,Hindi,स्मार्टवॉच का कौन सा ब्रांड पैसा वसूल है?
+q096,c04_value,c04,smartwatches,value,Hinglish,smartwatches ka kaun sa brand paisa vasool hai?
+q097,c05_best,c05,running shoes,best,English,What are the best brands for running shoes?
+q098,c05_best,c05,running shoes,best,Hindi,रनिंग शूज़ के सबसे अच्छे ब्रांड कौन से हैं?
+q099,c05_best,c05,running shoes,best,Hinglish,running shoes ke sabse achhe brands kaun se hain?
+q100,c05_budget,c05,running shoes,budget,English,"Which brand is best for running shoes under ₹3,000?"
+q101,c05_budget,c05,running shoes,budget,Hindi,"₹3,000 के अंदर रनिंग शूज़ का कौन सा ब्रांड सबसे अच्छा है?"
+q102,c05_budget,c05,running shoes,budget,Hinglish,"₹3,000 ke andar running shoes ka kaun sa brand sabse accha hai?"
+q103,c05_indian,c05,running shoes,indian,English,Which Indian brands are good for running shoes?
+q104,c05_indian,c05,running shoes,indian,Hindi,रनिंग शूज़ के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q105,c05_indian,c05,running shoes,indian,Hinglish,running shoes ke liye kaun se Indian brands achhe hain?
+q106,c05_beginner,c05,running shoes,beginner,English,I'm new to buying running shoes. Which brand should I trust?
+q107,c05_beginner,c05,running shoes,beginner,Hindi,"मैं रनिंग शूज़ पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q108,c05_beginner,c05,running shoes,beginner,Hinglish,"Main running shoes pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q109,c05_gift,c05,running shoes,gift,English,Which brand of running shoes is good to gift someone?
+q110,c05_gift,c05,running shoes,gift,Hindi,किसी को गिफ्ट देने के लिए रनिंग शूज़ का कौन सा ब्रांड अच्छा रहेगा?
+q111,c05_gift,c05,running shoes,gift,Hinglish,Kisi ko gift dene ke liye running shoes ka kaun sa brand accha rahega?
+q112,c05_reliable,c05,running shoes,reliable,English,Which brand of running shoes is the most reliable and long-lasting?
+q113,c05_reliable,c05,running shoes,reliable,Hindi,रनिंग शूज़ का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q114,c05_reliable,c05,running shoes,reliable,Hinglish,running shoes ka kaun sa brand sabse reliable aur tikau hai?
+q115,c05_top3,c05,running shoes,top3,English,Recommend your top 3 brands for running shoes in India.
+q116,c05_top3,c05,running shoes,top3,Hindi,भारत में रनिंग शूज़ के टॉप 3 ब्रांड बताओ।
+q117,c05_top3,c05,running shoes,top3,Hinglish,India mein running shoes ke top 3 brands batao.
+q118,c05_value,c05,running shoes,value,English,Which brand of running shoes gives the best value for money?
+q119,c05_value,c05,running shoes,value,Hindi,रनिंग शूज़ का कौन सा ब्रांड पैसा वसूल है?
+q120,c05_value,c05,running shoes,value,Hinglish,running shoes ka kaun sa brand paisa vasool hai?
+q121,c06_best,c06,face moisturizer,best,English,What are the best brands for face moisturizers?
+q122,c06_best,c06,face moisturizer,best,Hindi,फेस मॉइस्चराइज़र के सबसे अच्छे ब्रांड कौन से हैं?
+q123,c06_best,c06,face moisturizer,best,Hinglish,face moisturizer ke sabse achhe brands kaun se hain?
+q124,c06_budget,c06,face moisturizer,budget,English,Which brand is best for face moisturizers under ₹500?
+q125,c06_budget,c06,face moisturizer,budget,Hindi,₹500 के अंदर फेस मॉइस्चराइज़र का कौन सा ब्रांड सबसे अच्छा है?
+q126,c06_budget,c06,face moisturizer,budget,Hinglish,₹500 ke andar face moisturizer ka kaun sa brand sabse accha hai?
+q127,c06_indian,c06,face moisturizer,indian,English,Which Indian brands are good for face moisturizers?
+q128,c06_indian,c06,face moisturizer,indian,Hindi,फेस मॉइस्चराइज़र के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q129,c06_indian,c06,face moisturizer,indian,Hinglish,face moisturizer ke liye kaun se Indian brands achhe hain?
+q130,c06_beginner,c06,face moisturizer,beginner,English,I'm new to buying face moisturizers. Which brand should I trust?
+q131,c06_beginner,c06,face moisturizer,beginner,Hindi,"मैं फेस मॉइस्चराइज़र पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q132,c06_beginner,c06,face moisturizer,beginner,Hinglish,"Main face moisturizer pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q133,c06_gift,c06,face moisturizer,gift,English,Which brand of face moisturizers is good to gift someone?
+q134,c06_gift,c06,face moisturizer,gift,Hindi,किसी को गिफ्ट देने के लिए फेस मॉइस्चराइज़र का कौन सा ब्रांड अच्छा रहेगा?
+q135,c06_gift,c06,face moisturizer,gift,Hinglish,Kisi ko gift dene ke liye face moisturizer ka kaun sa brand accha rahega?
+q136,c06_reliable,c06,face moisturizer,reliable,English,Which brand of face moisturizers is the most reliable and long-lasting?
+q137,c06_reliable,c06,face moisturizer,reliable,Hindi,फेस मॉइस्चराइज़र का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q138,c06_reliable,c06,face moisturizer,reliable,Hinglish,face moisturizer ka kaun sa brand sabse reliable aur tikau hai?
+q139,c06_top3,c06,face moisturizer,top3,English,Recommend your top 3 brands for face moisturizers in India.
+q140,c06_top3,c06,face moisturizer,top3,Hindi,भारत में फेस मॉइस्चराइज़र के टॉप 3 ब्रांड बताओ।
+q141,c06_top3,c06,face moisturizer,top3,Hinglish,India mein face moisturizer ke top 3 brands batao.
+q142,c06_value,c06,face moisturizer,value,English,Which brand of face moisturizers gives the best value for money?
+q143,c06_value,c06,face moisturizer,value,Hindi,फेस मॉइस्चराइज़र का कौन सा ब्रांड पैसा वसूल है?
+q144,c06_value,c06,face moisturizer,value,Hinglish,face moisturizer ka kaun sa brand paisa vasool hai?
+q145,c07_best,c07,shampoo,best,English,What are the best brands for shampoo?
+q146,c07_best,c07,shampoo,best,Hindi,शैम्पू के सबसे अच्छे ब्रांड कौन से हैं?
+q147,c07_best,c07,shampoo,best,Hinglish,shampoo ke sabse achhe brands kaun se hain?
+q148,c07_budget,c07,shampoo,budget,English,Which brand is best for shampoo under ₹400?
+q149,c07_budget,c07,shampoo,budget,Hindi,₹400 के अंदर शैम्पू का कौन सा ब्रांड सबसे अच्छा है?
+q150,c07_budget,c07,shampoo,budget,Hinglish,₹400 ke andar shampoo ka kaun sa brand sabse accha hai?
+q151,c07_indian,c07,shampoo,indian,English,Which Indian brands are good for shampoo?
+q152,c07_indian,c07,shampoo,indian,Hindi,शैम्पू के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q153,c07_indian,c07,shampoo,indian,Hinglish,shampoo ke liye kaun se Indian brands achhe hain?
+q154,c07_beginner,c07,shampoo,beginner,English,I'm new to buying shampoo. Which brand should I trust?
+q155,c07_beginner,c07,shampoo,beginner,Hindi,"मैं शैम्पू पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q156,c07_beginner,c07,shampoo,beginner,Hinglish,"Main shampoo pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q157,c07_gift,c07,shampoo,gift,English,Which brand of shampoo is good to gift someone?
+q158,c07_gift,c07,shampoo,gift,Hindi,किसी को गिफ्ट देने के लिए शैम्पू का कौन सा ब्रांड अच्छा रहेगा?
+q159,c07_gift,c07,shampoo,gift,Hinglish,Kisi ko gift dene ke liye shampoo ka kaun sa brand accha rahega?
+q160,c07_reliable,c07,shampoo,reliable,English,Which brand of shampoo is the most reliable and long-lasting?
+q161,c07_reliable,c07,shampoo,reliable,Hindi,शैम्पू का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q162,c07_reliable,c07,shampoo,reliable,Hinglish,shampoo ka kaun sa brand sabse reliable aur tikau hai?
+q163,c07_top3,c07,shampoo,top3,English,Recommend your top 3 brands for shampoo in India.
+q164,c07_top3,c07,shampoo,top3,Hindi,भारत में शैम्पू के टॉप 3 ब्रांड बताओ।
+q165,c07_top3,c07,shampoo,top3,Hinglish,India mein shampoo ke top 3 brands batao.
+q166,c07_value,c07,shampoo,value,English,Which brand of shampoo gives the best value for money?
+q167,c07_value,c07,shampoo,value,Hindi,शैम्पू का कौन सा ब्रांड पैसा वसूल है?
+q168,c07_value,c07,shampoo,value,Hinglish,shampoo ka kaun sa brand paisa vasool hai?
+q169,c08_best,c08,protein powder,best,English,What are the best brands for protein powder?
+q170,c08_best,c08,protein powder,best,Hindi,प्रोटीन पाउडर के सबसे अच्छे ब्रांड कौन से हैं?
+q171,c08_best,c08,protein powder,best,Hinglish,protein powder ke sabse achhe brands kaun se hain?
+q172,c08_budget,c08,protein powder,budget,English,"Which brand is best for protein powder under ₹3,000?"
+q173,c08_budget,c08,protein powder,budget,Hindi,"₹3,000 के अंदर प्रोटीन पाउडर का कौन सा ब्रांड सबसे अच्छा है?"
+q174,c08_budget,c08,protein powder,budget,Hinglish,"₹3,000 ke andar protein powder ka kaun sa brand sabse accha hai?"
+q175,c08_indian,c08,protein powder,indian,English,Which Indian brands are good for protein powder?
+q176,c08_indian,c08,protein powder,indian,Hindi,प्रोटीन पाउडर के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q177,c08_indian,c08,protein powder,indian,Hinglish,protein powder ke liye kaun se Indian brands achhe hain?
+q178,c08_beginner,c08,protein powder,beginner,English,I'm new to buying protein powder. Which brand should I trust?
+q179,c08_beginner,c08,protein powder,beginner,Hindi,"मैं प्रोटीन पाउडर पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q180,c08_beginner,c08,protein powder,beginner,Hinglish,"Main protein powder pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q181,c08_gift,c08,protein powder,gift,English,Which brand of protein powder is good to gift someone?
+q182,c08_gift,c08,protein powder,gift,Hindi,किसी को गिफ्ट देने के लिए प्रोटीन पाउडर का कौन सा ब्रांड अच्छा रहेगा?
+q183,c08_gift,c08,protein powder,gift,Hinglish,Kisi ko gift dene ke liye protein powder ka kaun sa brand accha rahega?
+q184,c08_reliable,c08,protein powder,reliable,English,Which brand of protein powder is the most reliable and long-lasting?
+q185,c08_reliable,c08,protein powder,reliable,Hindi,प्रोटीन पाउडर का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q186,c08_reliable,c08,protein powder,reliable,Hinglish,protein powder ka kaun sa brand sabse reliable aur tikau hai?
+q187,c08_top3,c08,protein powder,top3,English,Recommend your top 3 brands for protein powder in India.
+q188,c08_top3,c08,protein powder,top3,Hindi,भारत में प्रोटीन पाउडर के टॉप 3 ब्रांड बताओ।
+q189,c08_top3,c08,protein powder,top3,Hinglish,India mein protein powder ke top 3 brands batao.
+q190,c08_value,c08,protein powder,value,English,Which brand of protein powder gives the best value for money?
+q191,c08_value,c08,protein powder,value,Hindi,प्रोटीन पाउडर का कौन सा ब्रांड पैसा वसूल है?
+q192,c08_value,c08,protein powder,value,Hinglish,protein powder ka kaun sa brand paisa vasool hai?
+q193,c09_best,c09,air conditioners,best,English,What are the best brands for air conditioners?
+q194,c09_best,c09,air conditioners,best,Hindi,एयर कंडीशनर (AC) के सबसे अच्छे ब्रांड कौन से हैं?
+q195,c09_best,c09,air conditioners,best,Hinglish,AC ke sabse achhe brands kaun se hain?
+q196,c09_budget,c09,air conditioners,budget,English,"Which brand is best for air conditioners under ₹40,000?"
+q197,c09_budget,c09,air conditioners,budget,Hindi,"₹40,000 के अंदर एयर कंडीशनर (AC) का कौन सा ब्रांड सबसे अच्छा है?"
+q198,c09_budget,c09,air conditioners,budget,Hinglish,"₹40,000 ke andar AC ka kaun sa brand sabse accha hai?"
+q199,c09_indian,c09,air conditioners,indian,English,Which Indian brands are good for air conditioners?
+q200,c09_indian,c09,air conditioners,indian,Hindi,एयर कंडीशनर (AC) के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q201,c09_indian,c09,air conditioners,indian,Hinglish,AC ke liye kaun se Indian brands achhe hain?
+q202,c09_beginner,c09,air conditioners,beginner,English,I'm new to buying air conditioners. Which brand should I trust?
+q203,c09_beginner,c09,air conditioners,beginner,Hindi,"मैं एयर कंडीशनर (AC) पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q204,c09_beginner,c09,air conditioners,beginner,Hinglish,"Main AC pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q205,c09_gift,c09,air conditioners,gift,English,Which brand of air conditioners is good to gift someone?
+q206,c09_gift,c09,air conditioners,gift,Hindi,किसी को गिफ्ट देने के लिए एयर कंडीशनर (AC) का कौन सा ब्रांड अच्छा रहेगा?
+q207,c09_gift,c09,air conditioners,gift,Hinglish,Kisi ko gift dene ke liye AC ka kaun sa brand accha rahega?
+q208,c09_reliable,c09,air conditioners,reliable,English,Which brand of air conditioners is the most reliable and long-lasting?
+q209,c09_reliable,c09,air conditioners,reliable,Hindi,एयर कंडीशनर (AC) का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q210,c09_reliable,c09,air conditioners,reliable,Hinglish,AC ka kaun sa brand sabse reliable aur tikau hai?
+q211,c09_top3,c09,air conditioners,top3,English,Recommend your top 3 brands for air conditioners in India.
+q212,c09_top3,c09,air conditioners,top3,Hindi,भारत में एयर कंडीशनर (AC) के टॉप 3 ब्रांड बताओ।
+q213,c09_top3,c09,air conditioners,top3,Hinglish,India mein AC ke top 3 brands batao.
+q214,c09_value,c09,air conditioners,value,English,Which brand of air conditioners gives the best value for money?
+q215,c09_value,c09,air conditioners,value,Hindi,एयर कंडीशनर (AC) का कौन सा ब्रांड पैसा वसूल है?
+q216,c09_value,c09,air conditioners,value,Hinglish,AC ka kaun sa brand paisa vasool hai?
+q217,c10_best,c10,refrigerators,best,English,What are the best brands for refrigerators?
+q218,c10_best,c10,refrigerators,best,Hindi,फ्रिज के सबसे अच्छे ब्रांड कौन से हैं?
+q219,c10_best,c10,refrigerators,best,Hinglish,fridge ke sabse achhe brands kaun se hain?
+q220,c10_budget,c10,refrigerators,budget,English,"Which brand is best for refrigerators under ₹30,000?"
+q221,c10_budget,c10,refrigerators,budget,Hindi,"₹30,000 के अंदर फ्रिज का कौन सा ब्रांड सबसे अच्छा है?"
+q222,c10_budget,c10,refrigerators,budget,Hinglish,"₹30,000 ke andar fridge ka kaun sa brand sabse accha hai?"
+q223,c10_indian,c10,refrigerators,indian,English,Which Indian brands are good for refrigerators?
+q224,c10_indian,c10,refrigerators,indian,Hindi,फ्रिज के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q225,c10_indian,c10,refrigerators,indian,Hinglish,fridge ke liye kaun se Indian brands achhe hain?
+q226,c10_beginner,c10,refrigerators,beginner,English,I'm new to buying refrigerators. Which brand should I trust?
+q227,c10_beginner,c10,refrigerators,beginner,Hindi,"मैं फ्रिज पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q228,c10_beginner,c10,refrigerators,beginner,Hinglish,"Main fridge pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q229,c10_gift,c10,refrigerators,gift,English,Which brand of refrigerators is good to gift someone?
+q230,c10_gift,c10,refrigerators,gift,Hindi,किसी को गिफ्ट देने के लिए फ्रिज का कौन सा ब्रांड अच्छा रहेगा?
+q231,c10_gift,c10,refrigerators,gift,Hinglish,Kisi ko gift dene ke liye fridge ka kaun sa brand accha rahega?
+q232,c10_reliable,c10,refrigerators,reliable,English,Which brand of refrigerators is the most reliable and long-lasting?
+q233,c10_reliable,c10,refrigerators,reliable,Hindi,फ्रिज का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q234,c10_reliable,c10,refrigerators,reliable,Hinglish,fridge ka kaun sa brand sabse reliable aur tikau hai?
+q235,c10_top3,c10,refrigerators,top3,English,Recommend your top 3 brands for refrigerators in India.
+q236,c10_top3,c10,refrigerators,top3,Hindi,भारत में फ्रिज के टॉप 3 ब्रांड बताओ।
+q237,c10_top3,c10,refrigerators,top3,Hinglish,India mein fridge ke top 3 brands batao.
+q238,c10_value,c10,refrigerators,value,English,Which brand of refrigerators gives the best value for money?
+q239,c10_value,c10,refrigerators,value,Hindi,फ्रिज का कौन सा ब्रांड पैसा वसूल है?
+q240,c10_value,c10,refrigerators,value,Hinglish,fridge ka kaun sa brand paisa vasool hai?
+q241,c11_best,c11,mattresses,best,English,What are the best brands for mattresses?
+q242,c11_best,c11,mattresses,best,Hindi,मैट्रेस के सबसे अच्छे ब्रांड कौन से हैं?
+q243,c11_best,c11,mattresses,best,Hinglish,mattress ke sabse achhe brands kaun se hain?
+q244,c11_budget,c11,mattresses,budget,English,"Which brand is best for mattresses under ₹15,000?"
+q245,c11_budget,c11,mattresses,budget,Hindi,"₹15,000 के अंदर मैट्रेस का कौन सा ब्रांड सबसे अच्छा है?"
+q246,c11_budget,c11,mattresses,budget,Hinglish,"₹15,000 ke andar mattress ka kaun sa brand sabse accha hai?"
+q247,c11_indian,c11,mattresses,indian,English,Which Indian brands are good for mattresses?
+q248,c11_indian,c11,mattresses,indian,Hindi,मैट्रेस के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q249,c11_indian,c11,mattresses,indian,Hinglish,mattress ke liye kaun se Indian brands achhe hain?
+q250,c11_beginner,c11,mattresses,beginner,English,I'm new to buying mattresses. Which brand should I trust?
+q251,c11_beginner,c11,mattresses,beginner,Hindi,"मैं मैट्रेस पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q252,c11_beginner,c11,mattresses,beginner,Hinglish,"Main mattress pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q253,c11_gift,c11,mattresses,gift,English,Which brand of mattresses is good to gift someone?
+q254,c11_gift,c11,mattresses,gift,Hindi,किसी को गिफ्ट देने के लिए मैट्रेस का कौन सा ब्रांड अच्छा रहेगा?
+q255,c11_gift,c11,mattresses,gift,Hinglish,Kisi ko gift dene ke liye mattress ka kaun sa brand accha rahega?
+q256,c11_reliable,c11,mattresses,reliable,English,Which brand of mattresses is the most reliable and long-lasting?
+q257,c11_reliable,c11,mattresses,reliable,Hindi,मैट्रेस का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q258,c11_reliable,c11,mattresses,reliable,Hinglish,mattress ka kaun sa brand sabse reliable aur tikau hai?
+q259,c11_top3,c11,mattresses,top3,English,Recommend your top 3 brands for mattresses in India.
+q260,c11_top3,c11,mattresses,top3,Hindi,भारत में मैट्रेस के टॉप 3 ब्रांड बताओ।
+q261,c11_top3,c11,mattresses,top3,Hinglish,India mein mattress ke top 3 brands batao.
+q262,c11_value,c11,mattresses,value,English,Which brand of mattresses gives the best value for money?
+q263,c11_value,c11,mattresses,value,Hindi,मैट्रेस का कौन सा ब्रांड पैसा वसूल है?
+q264,c11_value,c11,mattresses,value,Hinglish,mattress ka kaun sa brand paisa vasool hai?
+q265,c12_best,c12,tea,best,English,What are the best brands for tea?
+q266,c12_best,c12,tea,best,Hindi,चाय के सबसे अच्छे ब्रांड कौन से हैं?
+q267,c12_best,c12,tea,best,Hinglish,chai ke sabse achhe brands kaun se hain?
+q268,c12_budget,c12,tea,budget,English,Which brand is best for tea under ₹300?
+q269,c12_budget,c12,tea,budget,Hindi,₹300 के अंदर चाय का कौन सा ब्रांड सबसे अच्छा है?
+q270,c12_budget,c12,tea,budget,Hinglish,₹300 ke andar chai ka kaun sa brand sabse accha hai?
+q271,c12_indian,c12,tea,indian,English,Which Indian brands are good for tea?
+q272,c12_indian,c12,tea,indian,Hindi,चाय के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q273,c12_indian,c12,tea,indian,Hinglish,chai ke liye kaun se Indian brands achhe hain?
+q274,c12_beginner,c12,tea,beginner,English,I'm new to buying tea. Which brand should I trust?
+q275,c12_beginner,c12,tea,beginner,Hindi,"मैं चाय पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q276,c12_beginner,c12,tea,beginner,Hinglish,"Main chai pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q277,c12_gift,c12,tea,gift,English,Which brand of tea is good to gift someone?
+q278,c12_gift,c12,tea,gift,Hindi,किसी को गिफ्ट देने के लिए चाय का कौन सा ब्रांड अच्छा रहेगा?
+q279,c12_gift,c12,tea,gift,Hinglish,Kisi ko gift dene ke liye chai ka kaun sa brand accha rahega?
+q280,c12_reliable,c12,tea,reliable,English,Which brand of tea is the most reliable and long-lasting?
+q281,c12_reliable,c12,tea,reliable,Hindi,चाय का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q282,c12_reliable,c12,tea,reliable,Hinglish,chai ka kaun sa brand sabse reliable aur tikau hai?
+q283,c12_top3,c12,tea,top3,English,Recommend your top 3 brands for tea in India.
+q284,c12_top3,c12,tea,top3,Hindi,भारत में चाय के टॉप 3 ब्रांड बताओ।
+q285,c12_top3,c12,tea,top3,Hinglish,India mein chai ke top 3 brands batao.
+q286,c12_value,c12,tea,value,English,Which brand of tea gives the best value for money?
+q287,c12_value,c12,tea,value,Hindi,चाय का कौन सा ब्रांड पैसा वसूल है?
+q288,c12_value,c12,tea,value,Hinglish,chai ka kaun sa brand paisa vasool hai?
+q289,c13_best,c13,motorcycles,best,English,What are the best brands for motorcycles?
+q290,c13_best,c13,motorcycles,best,Hindi,मोटरसाइकिल के सबसे अच्छे ब्रांड कौन से हैं?
+q291,c13_best,c13,motorcycles,best,Hinglish,motorcycle ke sabse achhe brands kaun se hain?
+q292,c13_budget,c13,motorcycles,budget,English,Which brand is best for motorcycles under ₹1.5 lakh?
+q293,c13_budget,c13,motorcycles,budget,Hindi,₹1.5 लाख के अंदर मोटरसाइकिल का कौन सा ब्रांड सबसे अच्छा है?
+q294,c13_budget,c13,motorcycles,budget,Hinglish,₹1.5 lakh ke andar motorcycle ka kaun sa brand sabse accha hai?
+q295,c13_indian,c13,motorcycles,indian,English,Which Indian brands are good for motorcycles?
+q296,c13_indian,c13,motorcycles,indian,Hindi,मोटरसाइकिल के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q297,c13_indian,c13,motorcycles,indian,Hinglish,motorcycle ke liye kaun se Indian brands achhe hain?
+q298,c13_beginner,c13,motorcycles,beginner,English,I'm new to buying motorcycles. Which brand should I trust?
+q299,c13_beginner,c13,motorcycles,beginner,Hindi,"मैं मोटरसाइकिल पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q300,c13_beginner,c13,motorcycles,beginner,Hinglish,"Main motorcycle pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q301,c13_gift,c13,motorcycles,gift,English,Which brand of motorcycles is good to gift someone?
+q302,c13_gift,c13,motorcycles,gift,Hindi,किसी को गिफ्ट देने के लिए मोटरसाइकिल का कौन सा ब्रांड अच्छा रहेगा?
+q303,c13_gift,c13,motorcycles,gift,Hinglish,Kisi ko gift dene ke liye motorcycle ka kaun sa brand accha rahega?
+q304,c13_reliable,c13,motorcycles,reliable,English,Which brand of motorcycles is the most reliable and long-lasting?
+q305,c13_reliable,c13,motorcycles,reliable,Hindi,मोटरसाइकिल का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q306,c13_reliable,c13,motorcycles,reliable,Hinglish,motorcycle ka kaun sa brand sabse reliable aur tikau hai?
+q307,c13_top3,c13,motorcycles,top3,English,Recommend your top 3 brands for motorcycles in India.
+q308,c13_top3,c13,motorcycles,top3,Hindi,भारत में मोटरसाइकिल के टॉप 3 ब्रांड बताओ।
+q309,c13_top3,c13,motorcycles,top3,Hinglish,India mein motorcycle ke top 3 brands batao.
+q310,c13_value,c13,motorcycles,value,English,Which brand of motorcycles gives the best value for money?
+q311,c13_value,c13,motorcycles,value,Hindi,मोटरसाइकिल का कौन सा ब्रांड पैसा वसूल है?
+q312,c13_value,c13,motorcycles,value,Hinglish,motorcycle ka kaun sa brand paisa vasool hai?
+q313,c14_best,c14,backpacks,best,English,What are the best brands for backpacks?
+q314,c14_best,c14,backpacks,best,Hindi,बैकपैक के सबसे अच्छे ब्रांड कौन से हैं?
+q315,c14_best,c14,backpacks,best,Hinglish,backpack ke sabse achhe brands kaun se hain?
+q316,c14_budget,c14,backpacks,budget,English,"Which brand is best for backpacks under ₹2,000?"
+q317,c14_budget,c14,backpacks,budget,Hindi,"₹2,000 के अंदर बैकपैक का कौन सा ब्रांड सबसे अच्छा है?"
+q318,c14_budget,c14,backpacks,budget,Hinglish,"₹2,000 ke andar backpack ka kaun sa brand sabse accha hai?"
+q319,c14_indian,c14,backpacks,indian,English,Which Indian brands are good for backpacks?
+q320,c14_indian,c14,backpacks,indian,Hindi,बैकपैक के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q321,c14_indian,c14,backpacks,indian,Hinglish,backpack ke liye kaun se Indian brands achhe hain?
+q322,c14_beginner,c14,backpacks,beginner,English,I'm new to buying backpacks. Which brand should I trust?
+q323,c14_beginner,c14,backpacks,beginner,Hindi,"मैं बैकपैक पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q324,c14_beginner,c14,backpacks,beginner,Hinglish,"Main backpack pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q325,c14_gift,c14,backpacks,gift,English,Which brand of backpacks is good to gift someone?
+q326,c14_gift,c14,backpacks,gift,Hindi,किसी को गिफ्ट देने के लिए बैकपैक का कौन सा ब्रांड अच्छा रहेगा?
+q327,c14_gift,c14,backpacks,gift,Hinglish,Kisi ko gift dene ke liye backpack ka kaun sa brand accha rahega?
+q328,c14_reliable,c14,backpacks,reliable,English,Which brand of backpacks is the most reliable and long-lasting?
+q329,c14_reliable,c14,backpacks,reliable,Hindi,बैकपैक का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q330,c14_reliable,c14,backpacks,reliable,Hinglish,backpack ka kaun sa brand sabse reliable aur tikau hai?
+q331,c14_top3,c14,backpacks,top3,English,Recommend your top 3 brands for backpacks in India.
+q332,c14_top3,c14,backpacks,top3,Hindi,भारत में बैकपैक के टॉप 3 ब्रांड बताओ।
+q333,c14_top3,c14,backpacks,top3,Hinglish,India mein backpack ke top 3 brands batao.
+q334,c14_value,c14,backpacks,value,English,Which brand of backpacks gives the best value for money?
+q335,c14_value,c14,backpacks,value,Hindi,बैकपैक का कौन सा ब्रांड पैसा वसूल है?
+q336,c14_value,c14,backpacks,value,Hinglish,backpack ka kaun sa brand paisa vasool hai?
+q337,c15_best,c15,sunscreen,best,English,What are the best brands for sunscreen?
+q338,c15_best,c15,sunscreen,best,Hindi,सनस्क्रीन के सबसे अच्छे ब्रांड कौन से हैं?
+q339,c15_best,c15,sunscreen,best,Hinglish,sunscreen ke sabse achhe brands kaun se hain?
+q340,c15_budget,c15,sunscreen,budget,English,Which brand is best for sunscreen under ₹500?
+q341,c15_budget,c15,sunscreen,budget,Hindi,₹500 के अंदर सनस्क्रीन का कौन सा ब्रांड सबसे अच्छा है?
+q342,c15_budget,c15,sunscreen,budget,Hinglish,₹500 ke andar sunscreen ka kaun sa brand sabse accha hai?
+q343,c15_indian,c15,sunscreen,indian,English,Which Indian brands are good for sunscreen?
+q344,c15_indian,c15,sunscreen,indian,Hindi,सनस्क्रीन के लिए कौन से भारतीय ब्रांड अच्छे हैं?
+q345,c15_indian,c15,sunscreen,indian,Hinglish,sunscreen ke liye kaun se Indian brands achhe hain?
+q346,c15_beginner,c15,sunscreen,beginner,English,I'm new to buying sunscreen. Which brand should I trust?
+q347,c15_beginner,c15,sunscreen,beginner,Hindi,"मैं सनस्क्रीन पहली बार खरीद रहा हूँ, किस ब्रांड पर भरोसा करूँ?"
+q348,c15_beginner,c15,sunscreen,beginner,Hinglish,"Main sunscreen pehli baar kharid raha hoon, kis brand par bharosa karun?"
+q349,c15_gift,c15,sunscreen,gift,English,Which brand of sunscreen is good to gift someone?
+q350,c15_gift,c15,sunscreen,gift,Hindi,किसी को गिफ्ट देने के लिए सनस्क्रीन का कौन सा ब्रांड अच्छा रहेगा?
+q351,c15_gift,c15,sunscreen,gift,Hinglish,Kisi ko gift dene ke liye sunscreen ka kaun sa brand accha rahega?
+q352,c15_reliable,c15,sunscreen,reliable,English,Which brand of sunscreen is the most reliable and long-lasting?
+q353,c15_reliable,c15,sunscreen,reliable,Hindi,सनस्क्रीन का कौन सा ब्रांड सबसे भरोसेमंद और टिकाऊ है?
+q354,c15_reliable,c15,sunscreen,reliable,Hinglish,sunscreen ka kaun sa brand sabse reliable aur tikau hai?
+q355,c15_top3,c15,sunscreen,top3,English,Recommend your top 3 brands for sunscreen in India.
+q356,c15_top3,c15,sunscreen,top3,Hindi,भारत में सनस्क्रीन के टॉप 3 ब्रांड बताओ।
+q357,c15_top3,c15,sunscreen,top3,Hinglish,India mein sunscreen ke top 3 brands batao.
+q358,c15_value,c15,sunscreen,value,English,Which brand of sunscreen gives the best value for money?
+q359,c15_value,c15,sunscreen,value,Hindi,सनस्क्रीन का कौन सा ब्रांड पैसा वसूल है?
+q360,c15_value,c15,sunscreen,value,Hinglish,sunscreen ka kaun sa brand paisa vasool hai?
