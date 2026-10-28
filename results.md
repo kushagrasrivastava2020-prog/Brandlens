@@ -106,15 +106,27 @@ Mention rate by language and origin (original brands):
 
 ## 4. Model: predicting `mentioned` (0/1)
 
-Features are `language`, `category`, `query_type`, `origin` and `size_tier`; the brand name is not a feature. Evaluation uses 5-fold `GroupKFold` on `group_id`. F1 uses a 0.5 threshold. Values are the fold mean ± std.
+Features are `language`, `category`, `query_type`, `origin` and `size_tier`; the brand name is not a feature. Evaluation uses 5-fold `GroupKFold` on `group_id`. F1 and accuracy use a 0.5 threshold. Values are the fold mean ± std.
 
-| Model | All brands: AUC | All brands: F1 | Original brands: AUC | Original brands: F1 |
-|---|---|---|---|---|
-| Majority class | 0.500 ± 0.000 | 0.000 ± 0.000 | 0.500 ± 0.000 | 0.393 ± 0.321 |
-| Logistic regression | 0.709 ± 0.021 | 0.558 ± 0.018 | 0.753 ± 0.006 | 0.697 ± 0.006 |
-| XGBoost | 0.830 ± 0.011 | 0.663 ± 0.035 | 0.850 ± 0.017 | 0.757 ± 0.021 |
+Original brands (160 brands, 3,840 pairs; the app uses this model):
 
-The majority baseline's F1 on original brands swings between folds because the mention rate there is about 50%.
+| Model | AUC | F1 | Accuracy |
+|---|---|---|---|
+| Majority class | 0.500 ± 0.000 | 0.393 ± 0.321 | 48.5% ± 0.7% |
+| Logistic regression | 0.753 ± 0.006 | 0.697 ± 0.006 | 69.6% ± 0.9% |
+| XGBoost | 0.850 ± 0.017 | 0.757 ± 0.021 | 76.0% ± 2.1% |
+
+All brands (271 brands, 6,504 pairs):
+
+| Model | AUC | F1 | Accuracy |
+|---|---|---|---|
+| Majority class | 0.500 ± 0.000 | 0.000 ± 0.000 | 60.3% ± 1.5% |
+| Logistic regression | 0.709 ± 0.021 | 0.558 ± 0.018 | 67.7% ± 1.5% |
+| XGBoost | 0.830 ± 0.011 | 0.663 ± 0.035 | 74.7% ± 1.6% |
+
+- On original brands, XGBoost predicts correctly for 76% of question × brand pairs, against about 50% for always giving the most common answer. Pooled over the five test folds that is 1,435 correct "mentioned", 1,482 correct "not mentioned", 435 wrong "mentioned" and 488 missed mentions.
+- On all brands, always answering "not mentioned" already scores 60.3%, so accuracy alone flatters weak models there. AUC doesn't have that problem, which is why it is the main metric.
+- The majority baseline's F1 on original brands swings between folds because the mention rate there is about 50%.
 
 Top 5 SHAP features (mean |SHAP|). The value in brackets is the mean SHAP when the feature is present; positive raises the predicted mention.
 

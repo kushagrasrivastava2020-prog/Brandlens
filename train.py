@@ -13,7 +13,7 @@ import shap
 from matplotlib.ticker import PercentFormatter
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import f1_score, roc_auc_score
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 from sklearn.model_selection import GroupKFold
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import OneHotEncoder
@@ -55,13 +55,16 @@ def cross_validate(df):
     X, y, groups = df[FEATURES], df[TARGET], df["group_id"]
     results = {}
     for name, model in make_models().items():
-        aucs, f1s = [], []
+        aucs, f1s, accs = [], [], []
         for train_idx, test_idx in GroupKFold(n_splits=N_FOLDS).split(X, y, groups):
             model.fit(X.iloc[train_idx], y.iloc[train_idx])
             proba = model.predict_proba(X.iloc[test_idx])[:, 1]
+            pred = (proba >= 0.5).astype(int)
             aucs.append(roc_auc_score(y.iloc[test_idx], proba))
-            f1s.append(f1_score(y.iloc[test_idx], (proba >= 0.5).astype(int), zero_division=0))
-        results[name] = {"auc": (np.mean(aucs), np.std(aucs)), "f1": (np.mean(f1s), np.std(f1s))}
+            f1s.append(f1_score(y.iloc[test_idx], pred, zero_division=0))
+            accs.append(accuracy_score(y.iloc[test_idx], pred))
+        results[name] = {"auc": (np.mean(aucs), np.std(aucs)), "f1": (np.mean(f1s), np.std(f1s)),
+                         "acc": (np.mean(accs), np.std(accs))}
     return results
 
 
@@ -191,12 +194,13 @@ def main():
         model_file, fig_dir = "model_original.pkl", os.path.join(FIG_DIR, "original")
     print(f"subset={args.subset}: {len(df)} rows, {df['brand_id'].nunique()} brands, "
           f"{df['group_id'].nunique()} groups, mention rate {df[TARGET].mean():.1%}")
-    print(f"Features: {FEATURES} | {N_FOLDS}-fold GroupKFold on group_id | F1 threshold 0.5\n")
+    print(f"Features: {FEATURES} | {N_FOLDS}-fold GroupKFold on group_id | F1 and accuracy at threshold 0.5\n")
 
     results = cross_validate(df)
-    print(f"{'model':<22}{'AUC':>18}{'F1':>18}")
+    print(f"{'model':<22}{'AUC':>18}{'F1':>18}{'Accuracy':>20}")
     for name, r in results.items():
-        print(f"{name:<22}{r['auc'][0]:>11.3f} ± {r['auc'][1]:.3f}{r['f1'][0]:>11.3f} ± {r['f1'][1]:.3f}")
+        print(f"{name:<22}{r['auc'][0]:>11.3f} ± {r['auc'][1]:.3f}{r['f1'][0]:>11.3f} ± {r['f1'][1]:.3f}"
+              f"{r['acc'][0]:>12.1%} ± {r['acc'][1]:.1%}")
 
     # Final XGBoost poore data par, SHAP aur save ke liye
     model = make_models()["XGBoost"].fit(df[FEATURES], df[TARGET])
