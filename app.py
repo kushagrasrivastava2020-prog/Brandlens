@@ -1,4 +1,5 @@
 import os
+import re
 
 import altair as alt
 import anthropic
@@ -13,6 +14,7 @@ import brand_check
 
 MODEL_FILE = "model_original.pkl"
 BRANDS_FILE = "brands.csv"
+QUERIES_FILE = "queries.csv"
 REFERENCE_CHART = os.path.join("figures", "original", "mention_rate_language_origin.png")
 FEATURES = ["language", "category", "query_type", "origin", "size_tier"]  # train.py jaisa order
 LANGUAGES = ["English", "Hindi", "Hinglish"]
@@ -20,7 +22,14 @@ ORIGINS = ["Indian", "Global"]
 TIERS = ["big", "mid", "niche"]
 NO_BRAND = "(none)"
 BAR_COLOR, UP_COLOR, DOWN_COLOR = "#2a78d6", "#2a78d6", "#e34948"
-RAISES, LOWERS = "raises score", "lowers score"
+RAISES, LOWERS = "pushed the score up", "pushed the score down"
+# query_type ke seedhe naam; budget wala category ke amount se banta hai (question_label)
+QUESTION_LABELS = {
+    "best": "Best brands?", "indian": "Good Indian brands?", "beginner": "First-time buyer: which to trust?",
+    "gift": "Good brand to gift?", "reliable": "Most reliable?", "top3": "Top 3 in India?",
+    "value": "Best value for money?",
+}
+SIZE_WORDS = {"big": "big, well-known", "mid": "mid-sized", "niche": "small or new"}
 # analysis.py se: answers ke kitne % brands original list mein hain
 LIST_COVERAGE = {"English": "47%", "Hindi": "76%", "Hinglish": "76%"}
 DISCLAIMER = ("Pilot study. One model (Claude Haiku), 360 queries, no live web search. "
@@ -48,6 +57,11 @@ def load_brands():
     return brands[brands["source"] == "original"]
 
 
+@st.cache_data
+def load_queries():
+    return pd.read_csv(QUERIES_FILE)
+
+
 def model_levels(model):
     # dropdown options model ke encoder se, taaki training data se bahar ki value na jaaye
     return dict(zip(FEATURES, (list(c) for c in model.named_steps["onehotencoder"].categories_)))
@@ -73,28 +87,57 @@ def shap_by_feature(model, rows):
     return contributions, float(np.mean(explanation.base_values))
 
 
-def query_type_chart(rows):
-    return alt.Chart(rows).mark_bar(color=BAR_COLOR, cornerRadiusEnd=4, height=16).encode(
-        x=alt.X("probability:Q", title="Relative visibility score", scale=alt.Scale(domain=[0, 1]),
-                axis=alt.Axis(format="%")),
-        y=alt.Y("query_type:N", title=None, sort="-x"),
-        tooltip=[alt.Tooltip("query_type:N", title="query type"),
-                 alt.Tooltip("probability:Q", title="score", format=".1%")],
-    ).properties(height=260)
+def question_label(query_type, category):
+    if query_type != "budget":
+        return QUESTION_LABELS[query_type]
+    # budget sawaal mein category ka asli amount, jaise "Best under ₹40,000?"
+    queries = load_queries()
+    text = queries[(queries["category"] == category) & (queries["query_type"] == "budget")
+                   & (queries["language"] == "English")]["query_text"].iloc[0]
+    amount = re.search(r"₹[\d.,]+(?: lakh)?", text)
+    return f"Best under {amount.group(0)}?" if amount else "Best under a budget?"
 
 
-def shap_chart(contributions):
+def in_ten(p):
+    return f"about {round(p * 10)} in 10 answers"
+
+
+def query_type_chart(rows, category, language):
+    queries = load_queries()
+    asked = queries[(queries["category"] == category) & (queries["language"] == language)]
+    data = rows.assign(
+        question=[question_label(qt, category) for qt in rows["query_type"]],
+        asked=[asked.loc[asked["query_type"] == qt, "query_text"].iloc[0] for qt in rows["query_type"]],
+        label=[f"{p:.0%}" for p in rows["probability"]],
+    )
+    base = alt.Chart(data).encode(
+        y=alt.Y("question:N", title=None, sort="-x", axis=alt.Axis(labelLimit=220)),
+        tooltip=[alt.Tooltip("asked:N", title="Exact question asked"),
+                 alt.Tooltip("probability:Q", title="Score", format=".0%")],
+    )
+    # domain 1.15 tak, taaki 100% wale bar ke aage bhi number ki jagah rahe
+    bars = base.mark_bar(color=BAR_COLOR, cornerRadiusEnd=4, height=16).encode(
+        x=alt.X("probability:Q", title="Score", scale=alt.Scale(domain=[0, 1.15]),
+                axis=alt.Axis(format="%", values=[0, 0.25, 0.5, 0.75, 1])))
+    labels = base.mark_text(align="left", dx=4, fontSize=11, color="#898781").encode(
+        x="probability:Q", text="label:N")
+    return (bars + labels).properties(height=280)
+
+
+def shap_chart(contributions, labels):
     data = contributions.rename("shap").rename_axis("feature").reset_index()
+    data["fact"] = data["feature"].map(labels)
     data["direction"] = np.where(data["shap"] >= 0, RAISES, LOWERS)
     bars = alt.Chart(data).mark_bar(cornerRadiusEnd=4, height=18).encode(
-        x=alt.X("shap:Q", title="SHAP (effect on log-odds)"),
-        y=alt.Y("feature:N", title=None, sort=alt.EncodingSortField("shap", op="sum", order="descending")),
-        color=alt.Color("direction:N", title=None,
+        x=alt.X("shap:Q", title="← lowers · raises →"),
+        y=alt.Y("fact:N", title=None, sort=alt.EncodingSortField("shap", op="sum", order="descending"),
+                axis=alt.Axis(labelLimit=240)),
+        color=alt.Color("direction:N", title=None, legend=alt.Legend(orient="bottom"),
                         scale=alt.Scale(domain=[RAISES, LOWERS], range=[UP_COLOR, DOWN_COLOR])),
-        tooltip=[alt.Tooltip("feature:N"), alt.Tooltip("shap:Q", title="SHAP", format="+.3f")],
+        tooltip=[alt.Tooltip("fact:N", title="Fact"), alt.Tooltip("direction:N", title="Effect")],
     )
     zero = alt.Chart(pd.DataFrame({"x": [0]})).mark_rule(color="#898781").encode(x="x:Q")
-    return (bars + zero).properties(height=220)
+    return (bars + zero).properties(height=240)
 
 
 def get_api_key():
@@ -110,8 +153,9 @@ def get_api_key():
 
 
 def profile_tab(model, brands, levels):
-    st.markdown("This tab scores a **profile** (category, origin, size tier), not a brand name. "
-                "Two brands with the same profile always get the same score.")
+    st.markdown("**How to read this page:** describe a type of brand on the left. On the right you see how often "
+                "an AI names brands like it, which questions name it most, and what raised or lowered the score. "
+                "It looks at the brand's type only, not its name, so brands of the same type get the same score.")
 
     def clear_brand():
         st.session_state["brand"] = NO_BRAND
@@ -125,43 +169,55 @@ def profile_tab(model, brands, levels):
 
     left, right = st.columns([1, 2], gap="large")
     with left:
-        st.subheader("Profile")
+        st.subheader("1. Describe the brand")
         category = st.selectbox("Category", levels["category"], key="category", on_change=clear_brand)
-        st.selectbox("Autofill from a brand (optional, original brands only)",
+        st.selectbox("Or fill in from a real brand (optional)",
                      [NO_BRAND] + sorted(brands.loc[brands["category"] == category, "brand"]),
                      key="brand", on_change=autofill)
-        origin = st.radio("Origin", ORIGINS, key="origin", horizontal=True, on_change=clear_brand)
-        size_tier = st.radio("Size tier", TIERS, key="size_tier", horizontal=True, on_change=clear_brand,
-                             help="big = known across India, mid = known within its category or segment, "
-                                  "niche = small or new")
+        origin = st.radio("Origin", ORIGINS, key="origin", horizontal=True, on_change=clear_brand,
+                          help="Indian = the brand started in India. Global = it started outside India.")
+        size_tier = st.radio("Size", TIERS, key="size_tier", horizontal=True, on_change=clear_brand,
+                             help="big = known across India, mid = known within its category, niche = small or new")
 
     rows = predict(model, category, origin, size_tier)
+    scores = {lang: rows.loc[rows["language"] == lang, "probability"].mean() for lang in LANGUAGES}
     with right:
-        st.subheader("Relative visibility score (pilot)")
-        st.caption("Model-estimated mention rate within the tracked brand list, averaged over the 8 query types. "
-                   "It is not a probability for any real brand: with more brands on the list, every score would drop.")
+        st.subheader("2. How often does the AI name a brand like this?")
         for col, lang in zip(st.columns(3), LANGUAGES):
-            col.metric(lang, f"{rows.loc[rows['language'] == lang, 'probability'].mean():.0%}",
+            col.metric(f"Asked in {lang}", f"{scores[lang]:.0%}",
                        help=f"{LIST_COVERAGE[lang]} of the brands in {lang} answers are on the tracked list")
-        st.caption("Tracked-list coverage of brands in answers: "
-                   + ", ".join(f"{lang} {c}" for lang, c in LIST_COVERAGE.items())
-                   + ". Lower coverage pulls a language's scores down.")
+            col.caption(in_ten(scores[lang]))
+        st.markdown(f"**In plain words:** ask an AI about **{category}**, and a **{SIZE_WORDS[size_tier]} "
+                    f"{origin}** brand gets named in about **{round(scores['English'] * 10)} of 10** English answers, "
+                    f"**{round(scores['Hindi'] * 10)} of 10** Hindi answers and **{round(scores['Hinglish'] * 10)} "
+                    "of 10** Hinglish answers.")
+        st.caption("This is the model's estimate for this type of brand, learned from 360 real AI answers "
+                   "(a relative visibility score for this pilot), not a forecast for one specific brand. "
+                   "Why is English lower? English questions that don't mention India often get US brands that "
+                   "aren't on our list. So compare types within one language, not one language against another.")
 
-        language = st.radio("Language for details", LANGUAGES, key="language", horizontal=True)
+        st.subheader("3. Look closer")
+        language = st.radio("Show details for", LANGUAGES, key="language", horizontal=True)
         lang_rows = rows[rows["language"] == language]
-        chart_col, shap_col = st.columns(2)
-        with chart_col:
-            st.markdown(f"**By query type ({language})**")
-            st.altair_chart(query_type_chart(lang_rows), width="stretch")
-        with shap_col:
-            contributions, base = shap_by_feature(model, lang_rows)
-            st.markdown(f"**Why this score: SHAP ({language})**")
-            st.altair_chart(shap_chart(contributions), width="stretch")
-            st.caption(f"Baseline (training average): {1 / (1 + np.exp(-base)):.0%}. Positive values raise the "
-                       "score, negative values lower it. query_type is averaged over the 8 types. A negative "
-                       "language bar for English partly reflects lower list coverage, not only model behaviour.")
+        # ek ke neeche ek, full width: side-by-side mein labels aur bars pichak jaate the
+        st.markdown(f"**Which questions name it most ({language})**")
+        st.caption("Each bar is one of the 8 questions asked. Hover a bar to see the exact question.")
+        st.altair_chart(query_type_chart(lang_rows, category, language), width="stretch")
 
-    st.subheader("Reference: language × origin (original brands)")
+        contributions, base = shap_by_feature(model, lang_rows)
+        labels = {"language": f"Language: {language}", "category": f"Category: {category}",
+                  "query_type": "Question type (average of 8)", "origin": f"Origin: {origin}",
+                  "size_tier": f"Size: {size_tier}"}
+        st.markdown(f"**What pushed the score up or down ({language})**")
+        st.caption(f"The model starts from an average brand ({1 / (1 + np.exp(-base)):.0%}). Each bar is one "
+                   "fact about this brand: blue pushed the score up, red pushed it down, and a longer bar "
+                   "means a bigger push. (This breakdown is called SHAP; the bar lengths are in the model's "
+                   "own units, not percent.)")
+        st.altair_chart(shap_chart(contributions, labels), width="stretch")
+
+    st.subheader("For comparison: real counts")
+    st.caption("How often Indian and global brands were actually named in the 360 answers, by language "
+               "(the 160 original brands, all categories). This chart doesn't change with your choices.")
     if os.path.exists(REFERENCE_CHART):
         st.image(REFERENCE_CHART, width=560)
     else:
@@ -261,7 +317,8 @@ def check_tab(levels):
 def main():
     st.set_page_config(page_title="BrandLens-India", page_icon="🔎", layout="wide")
     st.title("BrandLens-India")
-    st.caption("Relative visibility of brands in AI answers (English / Hindi / Hinglish)")
+    st.caption("How often AI assistants name different kinds of brands when Indians ask for shopping advice "
+               "in English, Hindi or Hinglish")
 
     model = load_model()
     levels = model_levels(model)
